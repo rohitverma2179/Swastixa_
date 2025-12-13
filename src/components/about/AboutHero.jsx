@@ -87,9 +87,9 @@ export default function ScrollStac() {
     }, []);
 
     return (
-        <section ref={containerRef} className="min-h-screen  bg-[#f1efe5] font-mono py-20 pb-[20vh]">
+        <section ref={containerRef} className="min-h-screen   font-mono py-20 pb-[20vh]">
             <div className="w-full flex flex-col items-center gap-10">
-                <h1 className="text-4xl md:text-6xl font-bold  text-[#274E5F] mb-10 text-center  z-0">
+                <h1 className="text-4xl md:text-6xl font-bold  mb-10 text-center  z-0">
                     Lorem ipsum dolor.
                 </h1>
 

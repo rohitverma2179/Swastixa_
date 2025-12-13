@@ -4,7 +4,9 @@ export default function BlogCard({ blog }) {
 
     return (
         <GlowingBorder
-            data-aos="zoom-out-down"
+            // data-aos="zoom-out-down"
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
             containerClassName="shadow-md hover:shadow-2xl transition-all duration-300 bg-zinc-900"
             className="p-4 bg-zinc-800 !h-auto"
             borderRadius="0.8rem"

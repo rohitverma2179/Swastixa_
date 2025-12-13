@@ -44,6 +44,7 @@ import { Routes, Route } from "react-router-dom";
 // Layout
 import Header from "./components/common/Header";
 import Footer from "./components/common/Footer";
+import AOS from "aos";
 
 // Pages
 import Home from "./pages/Home";
@@ -52,6 +53,8 @@ import Awards from "./pages/Awards";
 import Careers from "./pages/Careers";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
+import "aos/dist/aos.css";
+
 
 import "./App.css";
 import CustomCursor from "./components/common/CustomCursor";
@@ -63,6 +66,16 @@ import About from "./pages/About";
 
 export default function App() {
   const [loader, setLoader] = useState(true);
+
+  
+    useEffect(() => {
+      AOS.init({
+        duration: 1000,
+        easing: "ease-in-out",
+        once: true,   // animation sirf ek baar
+        offset: 120,
+      });
+    }, []);
 
   useEffect(() => {
     // Loader 2.5 sec ke liye show hoga
@@ -89,6 +102,9 @@ export default function App() {
     );
   }
 
+  
+
+
 
 
   // 👉 After loader finished → show website
@@ -113,9 +129,9 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/work" element={<Work />} />
         <Route path="/awards" element={<CommingSoon />} />
-        <Route path="/careers" element={<CommingSoon />} />
+        <Route path="/careers" element={<Careers />} />
         <Route path="/blog" element={<Blog />} />
-        <Route path="/contact" element={<CommingSoon />} />
+        <Route path="/contact" element={<Careers />} />
         <Route path="/about" element={<About />} />
       </Routes>
       <Footer />

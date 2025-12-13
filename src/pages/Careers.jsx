@@ -1,32 +1,13 @@
 import React from "react";
-// import ScrollStac from "../components/careers/scroll";
-// import ScrollStack, { ScrollStackItem } from "../components/careers/ScrollStack";
-// import ScrollStack from "../components/careers/ScrollStackContent";
-// import ScrollStackCards from "../components/careers/ScrollStackContent";
-// import { ScrollStackItem } from "../components/careers/ScrollStack";
-// import ScrollStack, { ScrollStackItem } from "../components/careers/ScrollStack";
-// import ScrollStackCards from "../components/careers/ScrollStackContent";
-// import ScrollStackCards from "../components/careers/ScrollStackContent";
+// import CareersHero from "../components/careers/CareersHero";
+import ContactCareer from "../components/careers/ContactCareer";
+import CareersHero from "../components/careers/careersHero";
 
 export default function Careers() {
   return (
-    <>
-      {/* <ScrollStack useWindowScroll={true}>
-        <ScrollStackItem>
-          <h2>Card 1</h2>
-          <p>This is the first card in the stack</p>
-        </ScrollStackItem>
-        <ScrollStackItem>
-          <h2>Card 2</h2>
-          <p>This is the second card in the stack</p>
-        </ScrollStackItem>
-        <ScrollStackItem>
-          <h2>Card 3</h2>
-          <p>This is the third card in the stack</p>
-        </ScrollStackItem>
-      </ScrollStack> */}
-
-      {/* <ScrollStac /> */}
-    </>
+    <div className="bg-black min-h-screen pt-20">
+      <CareersHero />
+      <ContactCareer />
+    </div>
   );
 }
