@@ -119,7 +119,7 @@ const Hero = () => {
     });
 
     tl.to(videoEl, {
-      scale: 1.5,
+      scale: 1.2,
       width: "100vw",
       height: "100vh",
       borderRadius: 0,
@@ -149,7 +149,7 @@ const Hero = () => {
 
           <video
             ref={videoRef}
-            src="https://swastixa.b-cdn.net/Hero-MAIN-video-1.mp4 "
+            src="https://swastixa.b-cdn.net/home%20page%20hero%20video%2004.mp4"
             // src={heroVideo}
             autoPlay
             muted

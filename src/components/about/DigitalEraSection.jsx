@@ -1,46 +1,50 @@
 export default function DigitalEraSection() {
   return (
     <section className="min-h-screen bg-black text-white px-6 sm:px-10 lg:px-20 py-24">
-      
+
       {/* Top Accent Lines */}
       <div className="mb-20 max-w-[600px]">
-        <p>Empowering Indian Brands into A Brave New Digital Marketing Era.Empowering Indian Brands into A Brave New Digital Marketing Era.Empowering Indian Brands into A Brave New Digital Marketing Era.Empowering Indian Brands into A Brave New Digital Marketing Era.Empowering Indian Brands into A Brave New Digital Marketing Era.</p>
+        <p>We approach every project with clarity and purpose.
+          Ideas are explored deeply, shaped thoughtfully, and aligned with brand intent.
+          Design and strategy move together to create meaningful direction.
+          Execution follows with precision, consistency, and attention to detail.
+          The result is digital work that feels natural, focused, and impactful.
+        </p>
       </div>
 
       {/* Content Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-start">
-        
+
         {/* Left Content */}
         <div>
           <h1 className="text-3xl sm:text-4xl xl:text-5xl font-semibold leading-tight max-w-xl">
-            Empowering Indian <br />
-            Brands into A Brave <br />
-            New Digital <br />
-            Marketing Era.
+            A Digital Company<br />
+            Inspired by Indian Culture,<br />
+            Driven by Modern Thinking,<br />
+            Focused on Strategic Creativity,<br />
+            Built for the Digital Future.
+
+
+
+
+
+
+
           </h1>
         </div>
 
         {/* Right Content */}
         <div className="max-w-xl text-gray-300 text-[15px] leading-relaxed space-y-6">
           <p>
-            Langoor, A ‘born in digital era’ digital marketing agency is
-            challenging / changing the very way marketers make sense of the
-            digital disruption and navigate their way to Impact Business x
-            Marketing x Brand Performance.
+            Swastixa Digital was founded with a clear vision to create digital experiences that combine cultural depth with contemporary execution. Inspired by the Indian Swastika, a symbol of positivity, balance, and continuous movement, our name represents growth, progress, and purposeful direction. These values guide how we think, create, and collaborate.
           </p>
 
           <p>
-            Going beyond the elementary impact of digital in terms of search,
-            social and storytelling, marketers need to look at their customer
-            journeys in the digital domains and focus their action based on
-            insights of digital behaviour and contextise their marketing mix
-            strategies and action.
+            In a rapidly evolving digital environment, brands require more than visibility. They need clarity, consistency, and connection. We work across digital marketing, website development, production, and social media management to help brands communicate their story with confidence and coherence. Every service we offer is designed to support a unified digital presence.
           </p>
 
           <p>
-            Driving Indian Brands into the Digital First Marketing Era with our
-            expertise in Data x Technology x Strategic Thinking x Creative Edge
-            delivering agile Marketing Transformations & Brand Performance.
+            Our process is built on understanding before execution. We invest time in learning a brand’s goals, audience, and challenges, ensuring every decision is intentional. From strategy to design and final delivery, our focus remains on building digital solutions that feel authentic, perform effectively, and support long-term growth. At Swastixa Digital, every project is an opportunity to create work that flows naturally and delivers lasting value.
           </p>
         </div>
 
