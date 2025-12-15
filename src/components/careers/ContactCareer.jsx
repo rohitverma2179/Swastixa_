@@ -47,21 +47,21 @@ const jobsData = [
     {
         id: 2,
         title: "Art Director",
-        department: "Marketing",
-        experience: "5+ Years",
+        department: "Creative/Design",
+        experience: "6-8 Years",
         openings: 1,
         // description: "Leading the account management team to ensure client satisfaction and growth.",
         Qualifications: [
-            " Bachelor's degree in Design/Fine Arts/Visual Communication (mandatory)",
+            "Bachelor's degree in Design/Fine Arts/Visual Communication (mandatory)",
             "Experience: 6-8 years total, with minimum 3 years as senior designer or team lead",
-            " Portfolio: Must show complete brand projects, campaigns, and work for known companies ",
+            "Portfolio: Must show complete brand projects, campaigns, and work for known companies ",
         ],
         responsibilities: [
-            " Lead and guide a team of 4-6 designers",
+            "Lead and guide a team of 4-6 designers",
             "Create overall design direction and brand strategies for clients",
-            " Review and approve all designs before sending to clients",
-            " Present design concepts and ideas to clients confidently",
-            " Handle 8-10 major client accounts",
+            "Review and approve all designs before sending to clients",
+            "Present design concepts and ideas to clients confidently",
+            "Handle 8-10 major client accounts",
             "Make sure all work follows quality standards",
             "Participate in new client pitches and presentations",
             "Set design rules and processes for the team",
@@ -89,31 +89,31 @@ const jobsData = [
     {
         id: 3,
         title: "Motion Graphics Designer",
-        department: "Creative",
-        experience: "2-4 Years",
+        department: "Creative/Design",
+        experience: "2-3 Years",
         openings: 3,
         // description: "Creating engaging motion graphics for various digital platforms.",
         Qualifications: [
-            " 12th Pass or Diploma/Degree in Animation/Graphic Design/Multimedia",
-            " Experience: 2-3 years in motion graphics and video editing",
+            "12th Pass or Diploma/Degree in Animation/Graphic Design/Multimedia",
+            "Experience: 2-3 years in motion graphics and video editing",
             "Portfolio: Must submit portfolio showing previous work (reels, videos, animations)",
 
         ],
         responsibilities: [
             "Create 40-50 animated videos/reels per month for clients",
             "Design social media reels, YouTube videos, and promotional content",
-            " Make animated graphics, logos, and text animations",
-            "dit raw videos and add motion graphics effects",
+            "Make animated graphics, logos, and text animations",
+            "Edit raw videos and add motion graphics effects",
             "Create storyboards when needed",
-            " Make videos suitable for different platforms (Instagram, Facebook, YouTube)",
+            "Make videos suitable for different platforms (Instagram, Facebook, YouTube)",
             "Keep all project files organized properly",
             " Complete work with maximum 2 rounds of changes ",
         ],
         skills: [
-            " Must Know: Adobe After Effects, Premiere Pro",
-            " Good to Know: Adobe Illustrator, Photoshop",
-            " Bonus Skills: Cinema 4D or Blender",
-            " Understanding: Video formats, file sizes, and platform requirements ,"
+            "Must Know: Adobe After Effects, Premiere Pro",
+            "Good to Know: Adobe Illustrator, Photoshop",
+            "Bonus Skills: Cinema 4D or Blender",
+            "Understanding: Video formats, file sizes, and platform requirements ,"
         ],
         Competence: [
             "Deliver 8-10 finished videos per week",
@@ -124,15 +124,12 @@ const jobsData = [
         ],
     },
 
-
-
-
     {
 
         id: 4,
         title: "Copywriter",
-        department: "Creative",
-        experience: "4+ Years",
+        department: "Content",
+        experience: "2-3 Years",
         openings: 1,
         // description: "Designing high-quality visuals for marketing campaigns.",
         Qualifications: [
@@ -153,29 +150,27 @@ const jobsData = [
         ],
         skills: [
             "Languages: Excellent English & Hindi (reading, writing, speaking)",
-            " Knowledge: Basic SEO and keywords",
+            "Knowledge: Basic SEO and keywords",
             "Understanding: How to write for different platforms and audiences",
-            " Skills: Fast writing without compromising quality",
+            "Skills: Fast writing without compromising quality",
             "Tools: MS Word, Google Docs, basic internet research",
 
         ],
         Competence: [
             "Write 30-40 quality pieces per week",
             "Create posts that get 20% more likes/comments than client's average",
-            " Maximum 1 round of changes per content",
+            "Maximum 1 round of changes per content",
             "Zero spelling or grammar mistakes",
             "Meet daily and weekly content deadlines always",
         ],
     },
 
 
-
-
     {
         id: 5,
         title: "Senior Graphic Designer",
-        department: "Creative",
-        experience: "4+ Years",
+        department: "Creative/Design",
+        experience: "4-6 Years",
         openings: 1,
         // description: "Designing high-quality visuals for marketing campaigns.",
         Qualifications: [
@@ -213,13 +208,11 @@ const jobsData = [
     },
 
 
-
-
     {
         id: 6,
         title: "Digital Marketing",
-        department: "Creative",
-        experience: "4+ Years",
+        department: "Digital Marketing",
+        experience: "3-4 Years",
         openings: 1,
         // description: "Designing high-quality visuals for marketing campaigns.",
         Qualifications: [
@@ -231,9 +224,9 @@ const jobsData = [
         responsibilities: [
             "Plan and execute social media strategies for 8-10 client accounts",
             "Create and schedule posts across all social media platforms",
-            " Manage paid advertising campaigns with monthly budget of ₹5-10 lakhs",
-            " Track performance metrics and prepare monthly reports for clients",
-            " Respond to comments, messages and customer queries within 2 hours",
+            "Manage paid advertising campaigns with monthly budget of ₹5-10 lakhs",
+            "Track performance metrics and prepare monthly reports for clients",
+            "Respond to comments, messages and customer queries within 2 hours",
             "Work with design, content and client servicing teams for smooth delivery",
             " Stay updated with latest social media trends and platform changes",
             "Guide junior team members when needed",
@@ -247,7 +240,7 @@ const jobsData = [
 
         ],
         Competence: [
-            "  Should handle multiple clients at the same time without missing deadlines",
+            "Should handle multiple clients at the same time without missing deadlines",
             "Must deliver work on time with 95% punctuality",
             "Achieve at least 20-25% improvement in client engagement within 3 months",
             "Maintain good relationship with clients (90%+ satisfaction)",
