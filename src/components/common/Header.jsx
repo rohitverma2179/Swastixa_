@@ -203,10 +203,12 @@ export default function Navbar() {
                   >
                     <Link to={`/${item.toLowerCase()}`}>
                       <AnimatedText text={item} />
-                    </Link>
+                    </Link>  
                   </motion.li>
                 ))}
               </motion.ul>
+
+              
 
               {/* Social Icons */}
               <motion.div
