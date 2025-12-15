@@ -15,7 +15,7 @@ export default function Navbar() {
 
   // === Sidebar Animation Variants === //
   const sidebarVariants = {
-    hidden: { x: "100%" },
+    hidden: { x: "100%" },   
     visible: {
       x: 0,
       transition: { duration: 0.6, ease: [0.77, 0, 0.175, 1] },
