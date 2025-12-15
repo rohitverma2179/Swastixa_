@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 const jobsData = [
     {
         id: 1,
-        title: "Website Designer",
+        title: "Art Director",
         department: "Marketing",
         experience: "1-2 Years",
         openings: 2,
