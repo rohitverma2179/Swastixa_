@@ -4,37 +4,87 @@ import React, { useState } from 'react';
 const jobsData = [
     {
         id: 1,
-        title: "rohit developer",
+        title: "Client Servicing Executive",
         department: "Marketing",
         experience: "1-2 Years",
         openings: 2,
-        description: "We are seeking a skilled Website Designer to join our dynamic team and oversee the development, maintenance, and optimization of our websites. The ideal candidate will have a strong understanding of web technologies, a keen eye for detail, and a passion for creating exceptional digital experiences.",
+        // description: "We are seeking a skilled Website Designer to join our dynamic team and oversee the development, maintenance, and optimization of our websites. The ideal candidate will have a strong understanding of web technologies, a keen eye for detail, and a passion for creating exceptional digital experiences.",
+        Qualifications: [
+            "Any Bachelor's degree (Marketing/Mass Communication/Business preferred)",
+            "Experience: 2-4 years handling clients in advertising or digital marketing agency",
+            "Certifications: Project management training (preferred but not mandatory)"
+        ],
         responsibilities: [
-            "Maintain and update the website, ensu  ring it is visually appealing, user-friendly, and responsive across all devices.",
-            "Collaborate with technical teams to troubleshoot and resolve issues, ensuring optimal uptime and performance.",
-            "Implement SEO best practices, including keyword optimization, meta tags, and structured data.",
-            "Monitor website analytics to track performance, generate reports, and identify areas for improvement."
+            "Manage 6-8 client accounts as their main contact person",
+            " Understand client requirements and explain to internal teams",
+            "Coordinate between clients and design/content/social media teams",
+            "Schedule and attend client meetings (office or video calls)",
+            "Prepare and present monthly progress reports to clients",
+            "Handle client complaints and feedback professionally",
+            "Make sure work is delivered on time as promised",
+            "Follow up for payments and invoices",
+            "Find opportunities to sell additional services to existing clients",
+            "Keep all client communication and approvals documented",
+            "Onboard new clients with proper introduction and expectations",
         ],
         skills: [
-            "Strong proficiency in HTML, CSS, JavaScript, and CMS platforms.",
-            "Hands-on experience with design tools like Figma or Adobe XD.",
-            "Solid understanding of SEO principles and best practices.",
-            "Excellent verbal and written communication abilities."
-        ]
+            "Software: MS Office (Excel, Word, PowerPoint), Google Workspace",
+            "Tools: Project management software like Asana, Trello, or Monday.com",
+            "Languages: Good English & Hindi (speaking and writing)",
+            "Understanding: Basic knowledge of social media, design, and digital marketing",
+            "Skills: Good talking and listening, problem-solving, staying organized",
+
+        ],
+        Competence: [
+            "Deliver 95%+ projects on time without delays",
+            "Maintain 85%+ client happiness score",
+            "Retain 90%+ clients for renewal",
+            "Generate ₹3-5 lakhs extra revenue per year from existing clients",
+            "Reply to all client messages within 2 hours during working hours",
+            "Keep payment delays under 45 days maximum",
+        ],
     },
     {
         id: 2,
-        title: "Account Director",
+        title: "Art Director",
         department: "Marketing",
         experience: "5+ Years",
         openings: 1,
-        description: "Leading the account management team to ensure client satisfaction and growth.",
-        responsibilities: [
-            "Manage client relationships and expectations.",
-            "Oversee project delivery and quality.",
-            "Develop strategic plans for client growth."
+        // description: "Leading the account management team to ensure client satisfaction and growth.",
+        Qualifications: [
+            "Any Bachelor's degree (Marketing/Mass Communication/Business preferred)",
+            "Experience: 2-4 years handling clients in advertising or digital marketing agency",
+            "Certifications: Project management training (preferred but not mandatory)"
         ],
-        skills: ["Leadership", "Communication", "Strategic Planning"]
+        responsibilities: [
+            "Manage 6-8 client accounts as their main contact person",
+            " Understand client requirements and explain to internal teams",
+            "Coordinate between clients and design/content/social media teams",
+            "Schedule and attend client meetings (office or video calls)",
+            "Prepare and present monthly progress reports to clients",
+            "Handle client complaints and feedback professionally",
+            "Make sure work is delivered on time as promised",
+            "Follow up for payments and invoices",
+            "Find opportunities to sell additional services to existing clients",
+            "Keep all client communication and approvals documented",
+            "Onboard new clients with proper introduction and expectations",
+        ],
+        skills: [
+            "Software: MS Office (Excel, Word, PowerPoint), Google Workspace",
+            "Tools: Project management software like Asana, Trello, or Monday.com",
+            "Languages: Good English & Hindi (speaking and writing)",
+            "Understanding: Basic knowledge of social media, design, and digital marketing",
+            "Skills: Good talking and listening, problem-solving, staying organized",
+
+        ],
+        Competence: [
+            "Deliver 95%+ projects on time without delays",
+            "Maintain 85%+ client happiness score",
+            "Retain 90%+ clients for renewal",
+            "Generate ₹3-5 lakhs extra revenue per year from existing clients",
+            "Reply to all client messages within 2 hours during working hours",
+            "Keep payment delays under 45 days maximum",
+        ],
     },
     {
         id: 3,
@@ -42,13 +92,41 @@ const jobsData = [
         department: "Creative",
         experience: "2-4 Years",
         openings: 3,
-        description: "Creating engaging motion graphics for various digital platforms.",
-        responsibilities: [
-            "Design and animate motion graphics.",
-            "Collaborate with the creative team on storyboards.",
-            "Edit video content for social media."
+        // description: "Creating engaging motion graphics for various digital platforms.",
+        Qualifications: [
+            " Any Bachelor's degree (Marketing/Mass Communication/Business preferred)",
+            "Experience: 2-4 years handling clients in advertising or digital marketing agency",
+            "Certifications: Project management training (preferred but not mandatory)",
         ],
-        skills: ["After Effects", "Premiere Pro", "Animation"]
+        responsibilities: [
+            "Manage 6-8 client accounts as their main contact person",
+            " Understand client requirements and explain to internal teams",
+            "Coordinate between clients and design/content/social media teams",
+            "Schedule and attend client meetings (office or video calls)",
+            "Prepare and present monthly progress reports to clients",
+            "Handle client complaints and feedback professionally",
+            "Make sure work is delivered on time as promised",
+            "Follow up for payments and invoices",
+            "Find opportunities to sell additional services to existing clients",
+            "Keep all client communication and approvals documented",
+            "Onboard new clients with proper introduction and expectations",
+        ],
+        skills: [
+            "Software: MS Office (Excel, Word, PowerPoint), Google Workspace",
+            "Tools: Project management software like Asana, Trello, or Monday.com",
+            "Languages: Good English & Hindi (speaking and writing)",
+            "Understanding: Basic knowledge of social media, design, and digital marketing",
+            "Skills: Good talking and listening, problem-solving, staying organized",
+
+        ],
+        Competence: [
+            "Deliver 95%+ projects on time without delays",
+            "Maintain 85%+ client happiness score",
+            "Retain 90%+ clients for renewal",
+            "Generate ₹3-5 lakhs extra revenue per year from existing clients",
+            "Reply to all client messages within 2 hours during working hours",
+            "Keep payment delays under 45 days maximum",
+        ],
     },
     {
         id: 4,
@@ -56,13 +134,125 @@ const jobsData = [
         department: "Creative",
         experience: "4+ Years",
         openings: 1,
-        description: "Designing high-quality visuals for marketing campaigns.",
-        responsibilities: [
-            "Lead design projects from concept to completion.",
-            "Mentor junior designers.",
-            "Ensure brand consistency across all collaterals."
+        // description: "Designing high-quality visuals for marketing campaigns.",
+        Qualifications: [
+            "Any Bachelor's degree (Marketing/Mass Communication/Business preferred)",
+            "Experience: 2-4 years handling clients in advertising or digital marketing agency",
+            "Certifications: Project management training (preferred but not mandatory)"
         ],
-        skills: ["Photoshop", "Illustrator", "Branding"]
+        responsibilities: [
+            "Manage 6-8 client accounts as their main contact person",
+            " Understand client requirements and explain to internal teams",
+            "Coordinate between clients and design/content/social media teams",
+            "Schedule and attend client meetings (office or video calls)",
+            "Prepare and present monthly progress reports to clients",
+            "Handle client complaints and feedback professionally",
+            "Make sure work is delivered on time as promised",
+            "Follow up for payments and invoices",
+            "Find opportunities to sell additional services to existing clients",
+            "Keep all client communication and approvals documented",
+            "Onboard new clients with proper introduction and expectations",
+        ],
+        skills: [
+            "Software: MS Office (Excel, Word, PowerPoint), Google Workspace",
+            "Tools: Project management software like Asana, Trello, or Monday.com",
+            "Languages: Good English & Hindi (speaking and writing)",
+            "Understanding: Basic knowledge of social media, design, and digital marketing",
+            "Skills: Good talking and listening, problem-solving, staying organized",
+
+        ],
+        Competence: [
+            "Deliver 95%+ projects on time without delays",
+            "Maintain 85%+ client happiness score",
+            "Retain 90%+ clients for renewal",
+            "Generate ₹3-5 lakhs extra revenue per year from existing clients",
+            "Reply to all client messages within 2 hours during working hours",
+            "Keep payment delays under 45 days maximum",
+        ],
+    },
+    {
+        id: 5,
+        title: "Senior Graphic Designer",
+        department: "Creative",
+        experience: "4+ Years",
+        openings: 1,
+        // description: "Designing high-quality visuals for marketing campaigns.",
+        Qualifications: [
+            "Any Bachelor's degree (Marketing/Mass Communication/Business preferred)",
+            "Experience: 2-4 years handling clients in advertising or digital marketing agency",
+            "Certifications: Project management training (preferred but not mandatory)"
+        ],
+        responsibilities: [
+            "Manage 6-8 client accounts as their main contact person",
+            " Understand client requirements and explain to internal teams",
+            "Coordinate between clients and design/content/social media teams",
+            "Schedule and attend client meetings (office or video calls)",
+            "Prepare and present monthly progress reports to clients",
+            "Handle client complaints and feedback professionally",
+            "Make sure work is delivered on time as promised",
+            "Follow up for payments and invoices",
+            "Find opportunities to sell additional services to existing clients",
+            "Keep all client communication and approvals documented",
+            "Onboard new clients with proper introduction and expectations",
+        ],
+        skills: [
+            "Software: MS Office (Excel, Word, PowerPoint), Google Workspace",
+            "Tools: Project management software like Asana, Trello, or Monday.com",
+            "Languages: Good English & Hindi (speaking and writing)",
+            "Understanding: Basic knowledge of social media, design, and digital marketing",
+            "Skills: Good talking and listening, problem-solving, staying organized",
+
+        ],
+        Competence: [
+            "Deliver 95%+ projects on time without delays",
+            "Maintain 85%+ client happiness score",
+            "Retain 90%+ clients for renewal",
+            "Generate ₹3-5 lakhs extra revenue per year from existing clients",
+            "Reply to all client messages within 2 hours during working hours",
+            "Keep payment delays under 45 days maximum",
+        ],
+    },
+    {
+        id: 6,
+        title: "Senior Graphic Designer",
+        department: "Creative",
+        experience: "4+ Years",
+        openings: 1,
+        // description: "Designing high-quality visuals for marketing campaigns.",
+        Qualifications: [
+            "Any Bachelor's degree (Marketing/Mass Communication/Business preferred)",
+            "Experience: 2-4 years handling clients in advertising or digital marketing agency",
+            "Certifications: Project management training (preferred but not mandatory)"
+        ],
+        responsibilities: [
+            "Manage 6-8 client accounts as their main contact person",
+            " Understand client requirements and explain to internal teams",
+            "Coordinate between clients and design/content/social media teams",
+            "Schedule and attend client meetings (office or video calls)",
+            "Prepare and present monthly progress reports to clients",
+            "Handle client complaints and feedback professionally",
+            "Make sure work is delivered on time as promised",
+            "Follow up for payments and invoices",
+            "Find opportunities to sell additional services to existing clients",
+            "Keep all client communication and approvals documented",
+            "Onboard new clients with proper introduction and expectations",
+        ],
+        skills: [
+            "Software: MS Office (Excel, Word, PowerPoint), Google Workspace",
+            "Tools: Project management software like Asana, Trello, or Monday.com",
+            "Languages: Good English & Hindi (speaking and writing)",
+            "Understanding: Basic knowledge of social media, design, and digital marketing",
+            "Skills: Good talking and listening, problem-solving, staying organized",
+
+        ],
+        Competence: [
+            "Deliver 95%+ projects on time without delays",
+            "Maintain 85%+ client happiness score",
+            "Retain 90%+ clients for renewal",
+            "Generate ₹3-5 lakhs extra revenue per year from existing clients",
+            "Reply to all client messages within 2 hours during working hours",
+            "Keep payment delays under 45 days maximum",
+        ],
     }
 ];
 
@@ -135,10 +325,20 @@ const ContactCareer = () => {
                             <h2 className="text-3xl md:text-4xl font-bold mb-8">{selectedJob.title}</h2>
 
                             <div className="space-y-8 text-gray-300">
-                                <p className="leading-relaxed">
+                                {/* <p className="leading-relaxed">
                                     {selectedJob.description}
-                                </p>
+                                </p> */}
 
+                                {selectedJob.Qualifications && (
+                                    <div>
+                                        <h3 className="text-xl font-semibold text-white mb-4">Minimum Qualifications</h3>
+                                        <ul className="list-disc list-outside ml-5 space-y-2 marker:text-gray-500">
+                                            {selectedJob.Qualifications.map((res, idx) => (
+                                                <li key={idx}>{res}</li>
+                                            ))}
+                                        </ul>
+                                    </div>
+                                )}
                                 {selectedJob.responsibilities && (
                                     <div>
                                         <h3 className="text-xl font-semibold text-white mb-4">Key Responsibilities</h3>
@@ -152,10 +352,20 @@ const ContactCareer = () => {
 
                                 {selectedJob.skills && (
                                     <div>
-                                        <h3 className="text-xl font-semibold text-white mb-4">Required Skills and Experience</h3>
+                                        <h3 className="text-xl font-semibold text-white mb-4">Technical Skills Required</h3>
                                         <ul className="list-disc list-outside ml-5 space-y-2 marker:text-gray-500">
-                                            {selectedJob.skills.map((skill, idx) => (
-                                                <li key={idx}>{skill}</li>
+                                            {selectedJob.skills.map((res, idx) => (
+                                                <li key={idx}>{res}</li>
+                                            ))}
+                                        </ul>
+                                    </div>
+                                )}
+                                {selectedJob.Competence && (
+                                    <div>
+                                        <h3 className="text-xl font-semibold text-white mb-4">Competence Criteria</h3>
+                                        <ul className="list-disc list-outside ml-5 space-y-2 marker:text-gray-500">
+                                            {selectedJob.Competence.map((res, idx) => (
+                                                <li key={idx}>{res}</li>
                                             ))}
                                         </ul>
                                     </div>
