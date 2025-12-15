@@ -6,6 +6,9 @@ import LogoCarousel from '../components/home/Logo'
 
 const About = () => {
     return (
+
+        
+
         <>
             <div className='bg-black text-white'>
 
