@@ -10,7 +10,8 @@ export default function BlogCard({ blog }) {
             containerClassName="shadow-md hover:shadow-2xl transition-all duration-300 bg-zinc-900"
             className="p-4 bg-zinc-800 !h-auto"
             borderRadius="0.8rem"
-            color="rgba(255, 255, 255, 0.4)"
+            // color="rgba(255, 255, 255, 0.4)"
+            
         >
 
             {/* IMAGE SECTION */}
