@@ -16,6 +16,8 @@ const About = () => {
 
                     <AboutContent />
                 </div>
+
+                
                 <DigitalEraSection />
                 <LogoCarousel />
             </div>
