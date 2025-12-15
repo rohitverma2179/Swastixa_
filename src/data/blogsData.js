@@ -3,7 +3,7 @@ export const blogs = [
     id: 1,
     // title: "The UX Design Process: Step-by-Step Guide",
     excerpt: "Digital Marketing Strategy for SMEs Growth | Swastixa Digital.",
-    image: "https://imgv3.fotor.com/images/slider-image/A-clear-close-up-photo-of-a-woman.jpg",
+    image: "https://swastixa.b-cdn.net/Blog%20-%20Digital%20Marketing.jpg",
     // category: "Design",
     date: "2025-01-10"
   },
@@ -11,7 +11,7 @@ export const blogs = [
     id: 2,
     // title: "The UX Design Process: Step-by-Step Guide",
     excerpt: "Digital Transformation Roadmap for Traditional Businesses.",
-    image: "https://media.istockphoto.com/id/1399246824/photo/digital-eye-wave-lines-stock-background.jpg?s=612x612&w=0&k=20&c=1cW5xuLcb6HPDj6CLQQFBvGK5_fJvx9eA2egik-3hAc=",
+    image: "https://swastixa.b-cdn.net/Blog%20-%20Roadmap.jpg",
     // category: "Design",
     date: "2025-01-10"
   },
@@ -19,7 +19,7 @@ export const blogs = [
     id: 3,
     // title: "The UX Design Process: Step-by-Step Guide",
     excerpt: "Social Media Management for Local Businesses | Swastixa.",
-    image: "https://www.befunky.com/images/prismic/8e6aa235-e32e-4e4a-a9fd-6e404778f9d6_features-stock-images.png?auto=avif,webp&format=jpg&width=581",
+    image: "https://swastixa.b-cdn.net/Blog%20-%20Social%20Media%20%20-%202.jpg",
     // category: "Design",
     date: "2025-01-10"
   },
@@ -27,7 +27,7 @@ export const blogs = [
     id: 4,
     // title: "The UX Design Process: Step-by-Step Guide",
     excerpt: "On-Page SEO Basics for Business Owners | Swastixa Digital.",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQibg5f0fBrTxJSacQUfseRAN27xwQD9tId5Q&s",
+    image: "https://swastixa.b-cdn.net/Blog%20-%20On-Page%20SEO%20Basics%20for%20Business.jpg",
     // category: "Design",
     date: "2025-01-10"
   },
@@ -35,7 +35,7 @@ export const blogs = [
     id: 5,
     // title: "The UX Design Process: Step-by-Step Guide",
     excerpt: "High-Converting Website Design for Service Businesses | Swastixa.",
-    image: "https://tinypng.com/static/images/boat.png",
+    image: "https://swastixa.b-cdn.net/Blog%20-%20High-Converting%20Website%20Design%20for%20Service.jpg",
     // category: "Design",
     date: "2025-01-10"
   },
@@ -43,7 +43,7 @@ export const blogs = [
     id: 6,
     // title: "How to Improve Your UI Using Gestalt Principles",
     excerpt: "SEO vs SCO: What Your Business Needs in 2025 | Swastixa Digital.",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfCBQAq4fDkjizcfZGBW_6ir3gL4Kd8b_3fA&s",
+    image: "https://swastixa.b-cdn.net/Blog%20-%20SEO%20vs%20SCO%20%20--%202.jpg",
     // category: "UI",
     date: "2025-02-01"
   },
@@ -51,7 +51,7 @@ export const blogs = [
     id: 7,
     // title: "The UX Design Process: Step-by-Step Guide",
     excerpt: "Google Ads vs Meta Ads: Which Platform Wins? | Swastixa Digital.",
-    image: "https://imgv3.fotor.com/images/slider-image/A-clear-close-up-photo-of-a-woman.jpg",
+    image: "https://swastixa.b-cdn.net/Blog%20-%20Google%20Ads%20vs%20Meta%20Ads.jpg",
     // category: "Design",
     date: "2025-01-10"
   },
@@ -59,7 +59,7 @@ export const blogs = [
     id: 8,
     // title: "The UX Design Process: Step-by-Step Guide",
     excerpt: "Local SEO Guide for Service Providers | Swastixa Digital.",
-    image: "https://media.istockphoto.com/id/1399246824/photo/digital-eye-wave-lines-stock-background.jpg?s=612x612&w=0&k=20&c=1cW5xuLcb6HPDj6CLQQFBvGK5_fJvx9eA2egik-3hAc=",
+    image: "https://swastixa.b-cdn.net/Local%20SEO%20Guide%20.jpg",
     // category: "Design",
     date: "2025-01-10"
   },
@@ -67,7 +67,7 @@ export const blogs = [
     id: 9,
     // title: "The UX Design Process: Step-by-Step Guide",
     excerpt: "Explainer Videos vs Reels vs Carousels | Swastixa Digital.",
-    image: "https://www.befunky.com/images/prismic/8e6aa235-e32e-4e4a-a9fd-6e404778f9d6_features-stock-images.png?auto=avif,webp&format=jpg&width=581",
+    image: "https://swastixa.b-cdn.net/Blog%20-%20Explainer%20Videos%20vs%20Reels.jpg",
     // category: "Design",
     date: "2025-01-10"
   },
@@ -75,7 +75,7 @@ export const blogs = [
     id: 10,
     // title: "The UX Design Process: Step-by-Step Guide",
     excerpt: "Data-Driven Marketing for Small Brands | Swastixa Digital.",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQibg5f0fBrTxJSacQUfseRAN27xwQD9tId5Q&s",
+    image: "https://swastixa.b-cdn.net/Blog%20-%20Data-Driven%20Marketing.jpg",
     // category: "Design",
     date: "2025-01-10"
   },
@@ -83,7 +83,7 @@ export const blogs = [
     id: 11,
     // title: "The UX Design Process: Step-by-Step Guide",
     excerpt: "7 Paid Ads Mistakes Businesses Make | Swastixa Digital.",
-    image: "https://tinypng.com/static/images/boat.png",
+    image: "https://swastixa.b-cdn.net/Blog%20-%207%20Paid%20Ads.jpg",
     // category: "Design",
     date: "2025-01-10"
   },
@@ -91,7 +91,7 @@ export const blogs = [
     id: 12,
     // title: "How to Improve Your UI Using Gestalt Principles",
     excerpt: "10 Website Design Mistakes Killing Your Leads | Swastixa.",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfCBQAq4fDkjizcfZGBW_6ir3gL4Kd8b_3fA&s",
+    image: "https://swastixa.b-cdn.net/Blog%20-%20%2010%20Website.jpg",
     // category: "UI",
     date: "2025-02-01"
   },
@@ -99,7 +99,7 @@ export const blogs = [
     id: 13,
     // title: "The UX Design Process: Step-by-Step Guide",
     excerpt: "Content Calendar: Plan 30 Days of Posts in 2 Hours | Swastixa.",
-    image: "https://imgv3.fotor.com/images/slider-image/A-clear-close-up-photo-of-a-woman.jpg",
+    image: "https://swastixa.b-cdn.net/Blog%20-%20%20Content%20Calendar%20Plan%2030.jpg",
     // category: "Design",
     date: "2025-01-10"
   },
@@ -107,7 +107,7 @@ export const blogs = [
     id: 14,
     // title: "The UX Design Process: Step-by-Step Guide",
     excerpt: "Retargeting Ads Guide: Convert Lost Visitors | Swastixa Digital.",
-    image: "https://media.istockphoto.com/id/1399246824/photo/digital-eye-wave-lines-stock-background.jpg?s=612x612&w=0&k=20&c=1cW5xuLcb6HPDj6CLQQFBvGK5_fJvx9eA2egik-3hAc=",
+    image: "https://swastixa.b-cdn.net/Blog%20-%20Retargeting%20Ads%20Guide%20--%202.jpg",
     // category: "Design",
     date: "2025-01-10"
   },
@@ -115,7 +115,7 @@ export const blogs = [
     id: 15,
     // title: "Machine Learning for Frontend Devs",
     excerpt: "In-House Content Production for Social Media | Swastixa Digital.",
-    image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&q=80&w=1000",
+    image: "https://swastixa.b-cdn.net/Blog%20-%20In-House%20Contect.jpg",
     // category: "Technology",
     date: "2025-04-10"
   },
@@ -123,7 +123,7 @@ export const blogs = [
     id: 16,
     // title: "The Art of Storytelling in UX",
     excerpt: "How Graphic Design Builds Trust & Conversions | Swastixa Digital.",
-    image: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&q=80&w=1000",
+    image: "https://swastixa.b-cdn.net/Blog%20-%20How%20Graphic%20Design.jpg",
     // category: "Design",
     date: "2025-04-15"
   },
@@ -131,7 +131,7 @@ export const blogs = [
     id: 17,
     // title: "Intro to Web3 and Blockchain",
     excerpt: "Build Your Brand Using Instagram & Facebook Reels | Swastixa.",
-    image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&q=80&w=1000",
+    image: "https://swastixa.b-cdn.net/Blog%20-%20Build%20You%20Brand%20f%20%26%20i.jpg",
     // category: "Technology",
     date: "2025-04-20"
   },
@@ -139,7 +139,7 @@ export const blogs = [
     id: 18,
     // title: "CSS Grid vs Flexbox: When to Use Which",
     excerpt: "Choose the Right Digital Marketing Partner | Swastixa Digital.",
-    image: "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?auto=format&fit=crop&q=80&w=1000",
+    image: "https://swastixa.b-cdn.net/Blog%20-%20%20Choose%20the%20Right%20Digital%20Marketing.jpg",
     // category: "Development",
     date: "2025-04-25"
   },
@@ -147,7 +147,7 @@ export const blogs = [
     id: 19,
     // title: "Designing for AR/VR",
     excerpt: "Full-Stack Digital Marketing Approach | Swastixa Digital.",
-    image: "https://images.unsplash.com/photo-1617802690992-15d93263d3a9?auto=format&fit=crop&q=80&w=1000",
+    image: "https://swastixa.b-cdn.net/Blog%20-%20Full-Stack%20Digital.jpg",
     // category: "Design",
     date: "2025-05-01"
   },
@@ -155,7 +155,7 @@ export const blogs = [
     id: 20,
     // title: "State of JS 2025",
     excerpt: "Swastixa's Client Success Blueprint | Digital Growth Process.",
-    image: "https://images.unsplash.com/photo-1627398242454-45a1465c2479?auto=format&fit=crop&q=80&w=1000",
+    image: "https://swastixa.b-cdn.net/Blog%20-%20Swastixa's%20Client%20Success%20Blueprint.jpg",
     // category: "Technology",
     date: "2025-05-05"
   },
