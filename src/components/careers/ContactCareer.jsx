@@ -265,7 +265,7 @@ const ContactCareer = () => {
             <div className="max-w-[1400px] mx-auto flex flex-col lg:flex-row gap-8">
 
                 {/* Left Side: Job List or Job Details */}
-                <div className={`transition-all duration-500 ease-in-out ${selectedJob ? 'lg:w-1/2' : 'w-full lg:w-1/2'} bg-[#1a1a1a] rounded-4xl p-8 md:p-12 border border-gray-300`}>
+                <div className={`transition-all duration-500 ease-in-out ${selectedJob ? 'lg:w-1/2' : 'w-full lg:w-full'} bg-[#1a1a1a] rounded-4xl p-8 md:p-12 border border-gray-300`}>
 
                     {!selectedJob ? (
                         /* JOB LIST VIEW */

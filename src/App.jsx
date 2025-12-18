@@ -62,6 +62,7 @@ import CommingSoon from "./components/common/CommingSoon";
 import { Audio } from "react-loader-spinner";
 import HomeAbout from "./components/home/HomeAbout";
 import About from "./pages/About";
+import ContactSection from "./components/common/Contact";
 // import CustomCursor from "./components/common/CustomCursor";
 
 export default function App() {
@@ -131,7 +132,7 @@ export default function App() {
         <Route path="/awards" element={<CommingSoon />} />
         <Route path="/careers" element={<Careers />} />
         <Route path="/blog" element={<Blog />} />
-        <Route path="/contact" element={<CommingSoon />} />
+        <Route path="/contact" element={<ContactSection />} />
         <Route path="/about" element={<About />} />
       </Routes>
       <Footer />

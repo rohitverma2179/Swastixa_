@@ -103,7 +103,7 @@ import HomeAbout from "../components/home/HomeAbout";
 import ForthSection from "../components/home/HomeWork";
 import EndToEndExcellence from "../components/home/EndToEndExcellence";
 import LogoCarousel from "../components/home/Logo";
-import ContactSection from "../components/home/Contact";
+import ContactSection from "../components/common/Contact";
 import TorchlightTextReveal from "../components/home/MouseGlowText";
 
 

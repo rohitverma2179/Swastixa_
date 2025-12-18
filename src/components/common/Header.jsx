@@ -15,7 +15,7 @@ export default function Navbar() {
 
   // === Sidebar Animation Variants === //
   const sidebarVariants = {
-    hidden: { x: "100%" },   
+    hidden: { x: "100%" },
     visible: {
       x: 0,
       transition: { duration: 0.6, ease: [0.77, 0, 0.175, 1] },
@@ -66,7 +66,7 @@ export default function Navbar() {
   );
 
   return (
-    <nav className="top-0 left-0 w-full flex justify-between items-center px-6 py-4 z-50 bg-white ">
+    <nav className="top-0 left-0 w-full flex justify-between items-center px-6 py-4 z-50 bg-black ">
       {/* ===== Logo ===== */}
       <Link
         to="/"
@@ -76,7 +76,7 @@ export default function Navbar() {
         <img src="https://swastixa.b-cdn.net/swastixa.png" alt="Logo" className="w-55 h-20 object-contain" />
       </Link>
 
-     
+
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="p-3 rounded-lg hover:bg-gray-200 transition z-50"
@@ -164,11 +164,11 @@ export default function Navbar() {
               </button> */}
 
 
-              <button
+              <button 
                 onClick={() => setIsOpen(false)}
                 className="self-end p-1 rounded-lg hover:bg-gray-200 transition bg-white/10"
               >
-                <svg
+                <svg 
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-8 w-8 text-black"
                   viewBox="0 0 20 20"
@@ -177,11 +177,11 @@ export default function Navbar() {
                   <path
                     fillRule="evenodd"
                     d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1
-       1 0 111.414 1.414L11.414 10l4.293 
-       4.293a1 1 0 01-1.414 1.414L10 
-       11.414l-4.293 4.293a1 1 0 
-       01-1.414-1.414L8.586 10 4.293 
-       5.707a1 1 0 010-1.414z"
+                       1 0 111.414 1.414L11.414 10l4.293 
+                       4.293a1 1 0 01-1.414 1.414L10 
+                       11.414l-4.293 4.293a1 1 0 
+                       01-1.414-1.414L8.586 10 4.293 
+                       5.707a1 1 0 010-1.414z"
                     clipRule="evenodd"
                   />
                 </svg>
@@ -203,12 +203,12 @@ export default function Navbar() {
                   >
                     <Link to={`/${item.toLowerCase()}`}>
                       <AnimatedText text={item} />
-                    </Link>  
+                    </Link>
                   </motion.li>
                 ))}
               </motion.ul>
 
-              
+
 
               {/* Social Icons */}
               <motion.div
