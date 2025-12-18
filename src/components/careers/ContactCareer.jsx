@@ -261,23 +261,23 @@ const ContactCareer = () => {
     };
 
     return (
-        <div className="w-full bg-black text-white py-20 px-4 md:px-8">
+        <div className="w-full bg-black text-white py-20 px-4 md:px-0">
             <div className="max-w-[1400px] mx-auto flex flex-col lg:flex-row gap-8">
 
                 {/* Left Side: Job List or Job Details */}
-                <div className={`transition-all duration-500 ease-in-out ${selectedJob ? 'lg:w-1/2' : 'w-full lg:w-1/2'} bg-[#1a1a1a] rounded-4xl p-8 md:p-12 border border-gray-800`}>
+                <div className={`transition-all duration-500 ease-in-out ${selectedJob ? 'lg:w-1/2' : 'w-full lg:w-1/2'} bg-[#1a1a1a] rounded-4xl p-8 md:p-12 border border-gray-300`}>
 
                     {!selectedJob ? (
                         /* JOB LIST VIEW */
                         <div className="animate-fade-in">
                             <div className="flex justify-between items-end mb-12">
                                 <h2 className="text-4xl md:text-5xl font-bold">Careers</h2>
-                                <span className="text-gray-500 hidden md:block">Experience years</span>
+                                {/* <span className="text-gray-500 hidden md:block">Experience years</span> */}
                             </div>
 
-                            <div className="flex flex-col gap-8">
+                            <div className="flex flex-col gap-4">
                                 {jobsData.map((job) => (
-                                    <div key={job.id} className="group border-b border-gray-800 pb-8 hover:border-gray-600 transition-colors">
+                                    <div key={job.id} className="group border-b border-gray-300 pb-4 hover:border-gray-600 transition-colors">
                                         <h3 className="text-2xl font-bold mb-4">{job.title}</h3>
                                         <div className="flex flex-wrap items-center justify-between gap-4 text-sm md:text-base text-gray-400">
                                             <div className="flex gap-8">
@@ -294,12 +294,28 @@ const ContactCareer = () => {
                                                     <span>{job.openings}</span>
                                                 </div>
                                             </div>
-                                            <button
+                                            {/* <button
                                                 onClick={() => handleApplyClick(job)}
                                                 className="text-white border-b border-white pb-1 group-hover:text-blue-400 group-hover:border-blue-400 transition-colors cursor-pointer"
                                             >
                                                 Apply Here
+                                            </button> */}
+
+                                            <button
+                                                onClick={() => handleApplyClick(job)}
+                                                className="
+                                                          relative text-white pb-1
+                                                          group-hover:text-blue-400
+                                                          transition-colors cursor-pointer
+                                                          before:absolute before:left-0 before:-top-1 before:w-full before:h-[1px] before:bg-white
+                                                          after:absolute after:left-0 after:-bottom-1 after:w-full after:h-[1px] after:bg-white
+                                                          group-hover:before:bg-blue-400
+                                                          group-hover:after:bg-blue-400
+                                                           "
+                                            >
+                                                Apply Here
                                             </button>
+
                                         </div>
                                     </div>
                                 ))}
@@ -374,7 +390,7 @@ const ContactCareer = () => {
                         <div className="flex flex-col gap-6">
 
                             {/* Form Card */}
-                            <div className="bg-[#1a1a1a] rounded-4xl p-8 md:p-12 border border-gray-800">
+                            <div className="bg-[#1a1a1a] rounded-4xl p-8 md:p-12 border border-gray-300">
                                 <h2 className="text-3xl md:text-4xl font-bold mb-8">Become a Swastixa</h2>
                                 <form className="flex flex-col gap-6">
                                     <div className="flex flex-col gap-2">
@@ -413,7 +429,7 @@ const ContactCareer = () => {
                             </div>
 
                             {/* Resume Upload Card */}
-                            <div className="bg-[#1a1a1a] rounded-4xl p-8 border border-gray-800">
+                            <div className="bg-[#1a1a1a] rounded-4xl p-8 border border-gray-300">
                                 <div className="flex justify-between items-center mb-4">
                                     <span className="font-semibold">Upload Resume*</span>
                                     <span className="text-xs text-gray-500">Allowed file types: pdf, doc, docx, txt</span>

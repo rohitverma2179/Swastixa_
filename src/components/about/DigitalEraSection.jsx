@@ -1,9 +1,12 @@
+import { useRef } from 'react';
+import VariableProximity from '../common/VariableProximity';
 export default function DigitalEraSection() {
+  const containerRef = useRef(null);
   return (
     <section className="min-h-screen bg-black text-white px-6 sm:px-10 lg:px-20 py-24">
 
       {/* Top Accent Lines */}
-      <div className="mb-20 max-w-[600px]">
+      <div className="mb-24 max-w-[600px]">
         <p>We approach every project with clarity and purpose.
           Ideas are explored deeply, shaped thoughtfully, and aligned with brand intent.
           Design and strategy move together to create meaningful direction.
@@ -16,15 +19,25 @@ export default function DigitalEraSection() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-start">
 
         {/* Left Content */}
-        <div>
-          <h1 className="text-3xl sm:text-4xl xl:text-5xl font-semibold leading-tight max-w-xl">
-            A Digital Company<br />
-            Inspired by Indian Culture,<br />
-            Driven by Modern Thinking,<br />
-            Focused on Strategic Creativity,<br />
-            Built for the Digital Future.
-          </h1>
+        <div
+          ref={containerRef}
+          style={{ position: 'relative' }}
+        >
+          <VariableProximity
+            label="A Digital Company Inspired by Indian Culture, Driven by Modern Thinking, Focused on Strategic Creativity, Built for the Digital Future."
+            className="heading text-3xl sm:text-4xl xl:text-5xl leading-tight max-w-xl cursor-default block"
+            fromFontVariationSettings="'wght' 400"
+            toFontVariationSettings="'wght' 900"
+            containerRef={containerRef}
+            radius={100}
+            falloff="linear"
+          />
         </div>
+
+
+
+
+
 
         {/* Right Content */}
         <div className="max-w-xl text-gray-300 text-[15px] leading-relaxed space-y-6">

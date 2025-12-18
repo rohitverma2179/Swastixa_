@@ -131,7 +131,7 @@ export default function App() {
         <Route path="/awards" element={<CommingSoon />} />
         <Route path="/careers" element={<Careers />} />
         <Route path="/blog" element={<Blog />} />
-        <Route path="/contact" element={<Careers />} />
+        <Route path="/contact" element={<CommingSoon />} />
         <Route path="/about" element={<About />} />
       </Routes>
       <Footer />

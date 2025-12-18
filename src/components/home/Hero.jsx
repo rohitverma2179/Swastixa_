@@ -142,7 +142,7 @@ const Hero = () => {
         className="min-h-1/2 sm:min-h-screen flex flex-col items-center justify-center px-4 bg-white overflow-hidden" >
         {/* Heading Section */}
         <h1 className="heading  pt-10 sm:pt-28 text-center text-[22px] font-bold sm:text-[28px] md:text-[38px] lg:text-[50px] xl:text-[68px]  leading-snug text-gray-800 max-w-6xl">
-          Creativity That Flows From Culture. <br /> Culture Guides Us. Creativity Defines Us.</h1>
+          Creativity That Flows From Culture <br /> Culture Guides Us. Creativity Defines Us</h1>
 
         {/* Video Section */}
         <div className="mt-8 w-full flex justify-center relative z-10">
