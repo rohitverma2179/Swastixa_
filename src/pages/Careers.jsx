@@ -6,7 +6,7 @@ import InnerPageHeader from "../components/common/innerPageHeader";
 
 export default function Careers() {
   return (
-    <div className="bg-black min-h-screen px-20 pt-20">
+    <div className="bg-black min-h-screen xl:px-20 px-0 pt-20">
       {/* <CareersHero /> */}
       <InnerPageHeader title="Careers" description="At Swastixa, our Careers page showcases opportunities for creative and strategic talent, including Senior Graphic Designer, Copywriter, Client Servicing Executive, Art Director, Motion Graphics Designer, and Social Media Manager, with more roles to be added as we grow." />
       <ContactCareer />
