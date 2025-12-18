@@ -1,9 +1,12 @@
+// import image1 from "../assets/blog1.jpg";
+import image1 from "../assets/blog1.jpeg";
+
 export const blogs = [
   {
     id: 1,
     // title: "The UX Design Process: Step-by-Step Guide",
     excerpt: "Digital Marketing Strategy for SMEs Growth | Swastixa Digital.",
-    image: "https://swastixa.b-cdn.net/Blog%20-%20Digital%20Marketing.jpg",
+    image: image1,
     // category: "Design",
     date: "2025-01-10"
   },
@@ -18,7 +21,7 @@ export const blogs = [
   {
     id: 3,
     // title: "The UX Design Process: Step-by-Step Guide",
-    excerpt: "Social Media Management for Local Businesses | Swastixa.",
+    excerpt: "Social Media Management for Local Businesses | Swastixa Digital.",
     image: "https://swastixa.b-cdn.net/Blog%20-%20Social%20Media%20%20-%202.jpg",
     // category: "Design",
     date: "2025-01-10"
@@ -34,7 +37,7 @@ export const blogs = [
   {
     id: 5,
     // title: "The UX Design Process: Step-by-Step Guide",
-    excerpt: "High-Converting Website Design for Service Businesses | Swastixa.",
+    excerpt: "High-Converting Website Design for Service Businesses | Swastixa Digital.",
     image: "https://swastixa.b-cdn.net/Blog%20-%20High-Converting%20Website%20Design%20for%20Service.jpg",
     // category: "Design",
     date: "2025-01-10"
@@ -58,7 +61,7 @@ export const blogs = [
   {
     id: 8,
     // title: "The UX Design Process: Step-by-Step Guide",
-    excerpt: "Local SEO Guide for Service Providers | Swastixa Digital.",
+    excerpt: "Local SEO Guide for Service Providers Blueprint | Swastixa Digital.",
     image: "https://swastixa.b-cdn.net/Local%20SEO%20Guide%20.jpg",
     // category: "Design",
     date: "2025-01-10"
@@ -82,7 +85,7 @@ export const blogs = [
   {
     id: 11,
     // title: "The UX Design Process: Step-by-Step Guide",
-    excerpt: "7 Paid Ads Mistakes Businesses Make | Swastixa Digital.",
+    excerpt: "7 Paid Ads Mistakes Businesses Make Frequently | Swastixa Digital.",
     image: "https://swastixa.b-cdn.net/Blog%20-%207%20Paid%20Ads.jpg",
     // category: "Design",
     date: "2025-01-10"
@@ -90,7 +93,7 @@ export const blogs = [
   {
     id: 12,
     // title: "How to Improve Your UI Using Gestalt Principles",
-    excerpt: "10 Website Design Mistakes Killing Your Leads | Swastixa.",
+    excerpt: "10 Website Design Mistakes Killing Your Leads | Swastixa Digital.",
     image: "https://swastixa.b-cdn.net/Blog%20-%20%2010%20Website.jpg",
     // category: "UI",
     date: "2025-02-01"
@@ -146,7 +149,7 @@ export const blogs = [
   {
     id: 19,
     // title: "Designing for AR/VR",
-    excerpt: "Full-Stack Digital Marketing Approach | Swastixa Digital.",
+    excerpt: "Full-Stack Digital Marketing Approach Strategy | Swastixa Digital.",
     image: "https://swastixa.b-cdn.net/Blog%20-%20Full-Stack%20Digital.jpg",
     // category: "Design",
     date: "2025-05-01"

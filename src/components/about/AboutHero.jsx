@@ -10,34 +10,34 @@ gsap.registerPlugin(ScrollTrigger);
 const cardData = [
     {
         id: 1,
-        title: "Software Engineer",
-        description: "Building robust and scalable applications for the future.",
+        title: "Social Media Management",
+        description: "Strategic content and consistent management that turns followers into loyal audiences.",
         image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=1000"
     },
     {
         id: 2,
-        title: "Product Manager",
-        description: "Driving product vision and strategy to success.",
+        title: "Production House",
+        description: "High-impact videos, ads, and visual stories crafted to connect and inspire.",
         image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=1000"
     },
     {
         id: 3,
-        title: "UX Designer",
-        description: "Crafting intuitive and user-centered digital experiences.",
-        image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&q=80&w=1000"
+        title: "Website Development",
+        description: "Clean, responsive, and scalable websites built for speed, experience, and conversion.",
+        image: "https://swastixa.b-cdn.net/About%20-%204%20-%20%20(2).png"
     },
     {
         id: 4,
-        title: "Data Scientist",
-        description: "Uncovering insights from data to solve complex problems.",
-        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1000"
+        title: "Digital Marketing",
+        description: "Performance-driven campaigns designed to increase reach, engagement, and measurable growth.",
+        image: "https://swastixa.b-cdn.net/About%20-%204%20-%20%20(1).png"
     },
-    {
-        id: 5,
-        title: "DevOps Engineer",
-        description: "Streamlining deployment and operations for maximum efficiency.",
-        image: "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?auto=format&fit=crop&q=80&w=1000"
-    },
+    // {
+    //     id: 5,
+    //     title: "DevOps Engineer",
+    //     description: "Streamlining deployment and operations for maximum efficiency.",
+    //     image: "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?auto=format&fit=crop&q=80&w=1000"
+    // },
 ];
 
 export default function ScrollStac() {
@@ -88,10 +88,13 @@ export default function ScrollStac() {
     }, []);
 
     return (
-        <section ref={containerRef} className="min-h-screen   font-mono py-20 pb-[20vh]">
+        <section ref={containerRef} className="min-h-screen   font-mono py-20 pb-[10vh ]">
             <div className="w-full flex flex-col items-center gap-10">
+                <h1 className="text-4xl md:text-6xl font-bold  mb-[-10px] text-center  z-0">
+                    Where Ideas Flow, Brands Grow 
+                </h1>
                 <h1 className="text-4xl md:text-6xl font-bold  mb-10 text-center  z-0">
-                    Lorem ipsum dolor.
+                    A digital-first studio shaping modern brands
                 </h1>
 
                 <div className="w-full flex flex-col items-center">
