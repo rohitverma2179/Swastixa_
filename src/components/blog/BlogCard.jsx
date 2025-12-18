@@ -21,7 +21,7 @@ export default function BlogCard({ blog }) {
                     w-full 
                     h-[50vw]          /* Mobile */
                     sm:h-[40vw]        /* Small screens */
-                    md:h-[30vw]        /* Tablets */
+                    md:h-[30vw]        /* Tablets */npm
                     lg:h-[22vw]        /* Laptops */
                     xl:h-[18vh]        /* Large monitors */
                     2xl:h-[40vh]       /* Ultra wide screens */

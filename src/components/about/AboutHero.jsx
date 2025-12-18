@@ -47,9 +47,9 @@ export default function ScrollStac() {
     useEffect(() => {
         const lenis = new Lenis({
             smooth: true,
-            duration: 1.2, // Smoother scroll
+            duration: 1.2, // Smoother scroll           
         });
-
+        
         function raf(time) {
             lenis.raf(time);
             requestAnimationFrame(raf);

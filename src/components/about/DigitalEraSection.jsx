@@ -23,13 +23,6 @@ export default function DigitalEraSection() {
             Driven by Modern Thinking,<br />
             Focused on Strategic Creativity,<br />
             Built for the Digital Future.
-
-
-
-
-
-
-
           </h1>
         </div>
 
