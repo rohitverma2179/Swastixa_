@@ -40,7 +40,7 @@ export default function BlogCard({ blog }) {
                 <img
                     src={blog.image}
                     alt={blog.title}
-                    className="w-full h-full object-cover hover:scale-105 transition-all duration-300 "
+                    className="w-full h-full object-cover hover:scale-105 transition-all duration-300"
                 />
             </div>
 

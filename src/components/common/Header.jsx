@@ -2,13 +2,17 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 // import swastixa from "/swastixa.png";
 
 // import { swastixa } from '/';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
+  const navigate = useNavigate();
+  const isHome = location.pathname === "/";
+
   // const [menuIcon , setMenuIcon] = useState()
 
   const menuItems = ["WORK", "ABOUT", "BLOG", "CAREERS", "CONTACT"];
@@ -25,6 +29,18 @@ export default function Navbar() {
       transition: { duration: 0.6, ease: "easeInOut" },
     },
   };
+
+
+  const handleMenuClick = (item) => {
+  setIsOpen(false);
+
+  if (item === "CONTACT") {
+    navigate("/#contact");
+  } else {
+    navigate(`/${item.toLowerCase()}`);
+  }
+};
+
 
   const itemVariants = {
     hidden: { opacity: 0, x: 80 },
@@ -66,7 +82,7 @@ export default function Navbar() {
   );
 
   return (
-    <nav className="top-0 left-0 w-full flex justify-between items-center px-6 py-4 z-50 bg-black ">
+    <nav className={`top-0 left-0 w-full flex justify-between items-center px-6 py-4 z-50 transition-colors duration-300 ${isHome ? "bg-white" : "bg-black"}`}>
       {/* ===== Logo ===== */}
       <Link
         to="/"
@@ -127,7 +143,6 @@ export default function Navbar() {
             <motion.div
               className=" fixed top-0 right-0 backdrop-blur -[max(1.1pc,_min(1.389vw,_26.6px))] w-[70%]  bg-white/55 sm:w-[60%] md:w-[26%] h-full    text-[#243E84] z-50 flex flex-col justify-between p-8 pr-7 pt-6 bg-cover bg-center"
               // bg-[linear-gradient(90deg,rgba(255,255,255,1)_0%,rgba(0,0,0,1)_64%)] backdrop-blur-[14px]">
-
               // style={{
               //   backgroundImage:
               //     "url('https://res.cloudinary.com/dzsotenu5/image/upload/v1763026713/Black-bg_-_swastixa_rljrh0.png')",
@@ -138,37 +153,11 @@ export default function Navbar() {
               exit="exit"
             >
               {/* Close Button */}
-              {/* <button
-                onClick={() => setIsOpen(false)}
-                className="self-end p-1 mb-[-2px] rounded-lg hover:bg-gray-200 transition bg-white/10   "
-              >
-
-
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-8 w-8 text-black"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 
-                    1 0 111.414 1.414L11.414 10l4.293 
-                    4.293a1 1 0 01-1.414 1.414L10 
-                    11.414l-4.293 4.293a1 1 0 
-                    01-1.414-1.414L8.586 10 4.293 
-                    5.707a1 1 0 010-1.414z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-              </button> */}
-
-
-              <button 
+              <button
                 onClick={() => setIsOpen(false)}
                 className="self-end p-1 rounded-lg hover:bg-gray-200 transition bg-white/10"
               >
-                <svg 
+                <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-8 w-8 text-black"
                   viewBox="0 0 20 20"
@@ -195,15 +184,23 @@ export default function Navbar() {
                 animate="show"
               >
                 {menuItems.map((item, i) => (
+                  // <motion.li
+                  //   key={i}
+                  //   variants={itemVariants}
+                  //   className="sm:text-[42px] text-3xl font-extrabold tracking-tight cursor-pointer"
+                  //   onClick={() => setIsOpen(false)}
+                  // >
+                  //   <Link to={`/${item.toLowerCase()}`}>
+                  //     <AnimatedText text={item} />
+                  //   </Link>
+                  // </motion.li>
                   <motion.li
                     key={i}
                     variants={itemVariants}
                     className="sm:text-[42px] text-3xl font-extrabold tracking-tight cursor-pointer"
-                    onClick={() => setIsOpen(false)}
+                    onClick={() => handleMenuClick(item)}
                   >
-                    <Link to={`/${item.toLowerCase()}`}>
-                      <AnimatedText text={item} />
-                    </Link>
+                    <AnimatedText text={item} />
                   </motion.li>
                 ))}
               </motion.ul>
@@ -236,4 +233,3 @@ export default function Navbar() {
     </nav>
   );
 }
-

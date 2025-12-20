@@ -7,7 +7,7 @@ const jobsData = [
         title: "Client Servicing Executive",
         department: "Client Servicing",
         experience: "2-4 Years",
-        openings: 2,
+        openings: 1,
         // description: "We are seeking a skilled Website Designer to join our dynamic team and oversee the development, maintenance, and optimization of our websites. The ideal candidate will have a strong understanding of web technologies, a keen eye for detail, and a passion for creating exceptional digital experiences.",
         Qualifications: [
             "Any Bachelor's degree (Marketing/Mass Communication/Business preferred)",
@@ -91,7 +91,7 @@ const jobsData = [
         title: "Motion Graphics Designer",
         department: "Creative/Design",
         experience: "2-3 Years",
-        openings: 3,
+        openings: 1,
         // description: "Creating engaging motion graphics for various digital platforms.",
         Qualifications: [
             "12th Pass or Diploma/Degree in Animation/Graphic Design/Multimedia",

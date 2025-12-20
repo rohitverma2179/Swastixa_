@@ -1,90 +1,81 @@
 import React from 'react'
-import AboutHero from '../components/about/AboutHero'
+// import AboutHero from '../components/about/AboutHero'
 // import AboutContent from '../components/about/AboutContent'
 import DigitalEraSection from '../components/about/DigitalEraSection'
 import LogoCarousel from '../components/home/Logo'
 import ScrollReveal from '../components/common/ScrollReveal'
 import CardSwap, { Card } from '../components/common/CardSwap'
+import ApproachSection from '../components/about/ApproachSection'
 
 const About = () => {
 
-
-
     const cardData = [
-    {
-        id: 1,
-        title: "Social Media Management",
-        description: "Strategic content and consistent management that turns followers into loyal audiences.",
-        image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=1000"
-    },
-    {
-        id: 2,
-        title: "Production House",
-        description: "High-impact videos, ads, and visual stories crafted to connect and inspire.",
-        image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=1000"
-    },
-    {
-        id: 3,
-        title: "Website Development",
-        description: "Clean, responsive, and scalable websites built for speed, experience, and conversion.",
-        image: "https://swastixa.b-cdn.net/About%20-%204%20-%20%20(2).png"
-    },
-    {
-        id: 4,
-        title: "Digital Marketing",
-        description: "Performance-driven campaigns designed to increase reach, engagement, and measurable growth.",
-        image: "https://swastixa.b-cdn.net/About%20-%204%20-%20%20(1).png"
-    },
-    // {
-    //     id: 5,
-    //     title: "DevOps Engineer",
-    //     description: "Streamlining deployment and operations for maximum efficiency.",
-    //     image: "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?auto=format&fit=crop&q=80&w=1000"
-    // },
-];
+        {
+            id: 1,
+            title: "Social Media Management",
+            description: "Strategic content and consistent management that turns followers into loyal audiences.",
+            image: "https://swastixa.b-cdn.net/About%20-%204%20-%20%20(2).jpeg"
+        },
+        {
+            id: 2,
+            title: "Production House",
+            description: "High-impact videos, ads, and visual stories crafted to connect and inspire.",
+            image: "https://swastixa.b-cdn.net/About%20-%204%20-%20%20(3).jpeg"
+        },
+        {
+            id: 3,
+            title: "Website Development",
+            description: "Clean, responsive, and scalable websites built for speed, experience, and conversion.",
+            // image: "https://swastixa.b-cdn.net/About%20-%204%20-%20%20(2).png"
+            image: "https://swastixa.b-cdn.net/About%20-%204%20-%20%20(1).jpeg"
+        },
+        {
+            id: 4,
+            title: "Digital Marketing",
+            description: "Performance-driven campaigns designed to increase reach, engagement, and measurable growth.",
+            image: "https://swastixa.b-cdn.net/About%20%20-%204%20-%20%20(4).jpeg"
+            // image: "https://swastixa.b-cdn.net/About%20-%204%20-%20%20(1).png"
+        },
+    ];
 
     return (
         <>
             <div className='bg-black text-white'>
 
-                <div className=''>  {/* fixed background  paralex background */}
+                <div className='relative w-full '>  {/* fixed background  paralex background */}
                     {/* <AboutHero /> */}
 
-                    <div style={{ height: '600px', position: 'relative' }}>
+                    <div className="relative w-full h-[90vh] min-h-[600px] 2xl:min-h-[500px]">
                         <CardSwap
                             cardDistance={60}
                             verticalDistance={70}
-                            delay={5000}
-                            pauseOnHover={true}
+                            delay={2000}
+                            pauseOnHover={false}
                         >
-                            <Card>
-                                <h3>Card 1</h3>
-                                <p>Your content here</p>
-                            </Card>
-                            <Card>
-                                <h3>Card 2</h3>
-                                <p>Your content here</p>
-                            </Card>
-                            <Card>
-                                <h3>Card 3</h3>
-                                <p>Your content here</p>
-                            </Card>
-                            <Card>
-                                <h3>Card 4</h3>
-                                <p>Your content here</p>
-                            </Card>
-                            <Card>
-                                <h3>Card 5</h3>
-                                <p>Your content here</p>
-                            </Card>
-                            <Card>
-                                <h3>Card 6</h3>
-                                <p>Your content here</p>
-                            </Card>
+                            {cardData.map((card) => (
+                                <Card key={card.id} customClass="overflow-hidden group">
+                                    <div className="absolute inset-0 w-full h-full">
+                                        <img
+                                            src={card.image}
+                                            alt={card.title}
+                                            className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                                        />
+                                        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent" />
+                                    </div>
+                                    <div className="relative h-full flex flex-col justify-end p-8 select-none">
+                                        <h3 className="text-3xl font-bold text-white mb-1 tracking-tight">{card.title}</h3>
+                                        <p className="text-zinc-300 text-base leading-relaxed max-w-[90%]">{card.description}</p>
+                                    </div>
+                                </Card>
+                            ))}
                         </CardSwap>
                     </div>
                 </div>
-                <div className=' text-white h-[50vh] w-full lg:max-w-[980px] text-center flex  items-center  lg:mb-60 justify-center max-w-[1200px] mx-auto'>
+                <div className='text-white w-full lg:max-w-[980px] 2xl:max-w-[1400px] text-center flex items-center justify-center mx-auto
+                    pt-24 md:pt-40 lg:pt-60 2xl:pt-80
+                    mb-24 lg:mb-32 2xl:mb-40
+                    px-4
+                '>
 
                     <ScrollReveal
                         baseOpacity={0}
@@ -93,12 +84,12 @@ const About = () => {
                         blurStrength={10}
                     >
                         For us, creativity is a refined and strategic flow where deep understanding shapes ideas, thoughtful design creates balance, and digital innovation transforms vision into powerful and scalable solutions, delivered with clarity, consistency, and measurable performance across every stage of the brand journey.
-
                     </ScrollReveal>
                 </div>
 
 
                 <DigitalEraSection />
+                <ApproachSection />
                 <LogoCarousel />
             </div>
         </>

@@ -68,15 +68,15 @@ import ContactSection from "./components/common/Contact";
 export default function App() {
   const [loader, setLoader] = useState(true);
 
-  
-    useEffect(() => {
-      AOS.init({
-        duration: 1000,
-        easing: "ease-in-out",
-        once: true,   // animation sirf ek baar
-        offset: 120,
-      });
-    }, []);
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      easing: "ease-in-out",
+      once: true,   // animation sirf ek baar
+      offset: 120,
+    });
+  }, []);
 
   useEffect(() => {
     // Loader 2.5 sec ke liye show hoga
@@ -103,7 +103,7 @@ export default function App() {
     );
   }
 
-  
+
 
 
 
@@ -112,8 +112,8 @@ export default function App() {
   return (
     <>
       <Header />
-      {/* <CustomCursor /> */}
-      {/* <Routes>
+    {/* <CustomCursor /> */}
+    {/* <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/work" element={<Work />} />
         <Route path="/awards" element={<Awards />} />
@@ -123,7 +123,6 @@ export default function App() {
         <Route path="/about" element={<About />} />
         </Routes> */}
 
-
       {/* comming soon page  */}
 
       <Routes>
@@ -132,7 +131,7 @@ export default function App() {
         <Route path="/awards" element={<CommingSoon />} />
         <Route path="/careers" element={<Careers />} />
         <Route path="/blog" element={<Blog />} />
-        <Route path="/contact" element={<ContactSection />} />
+        {/* <Route path="/contact" element={<ContactSection />} /> */}
         <Route path="/about" element={<About />} />
       </Routes>
       <Footer />
