@@ -9,12 +9,15 @@ export default function BlogHero({ hero }) {
 
       <div>
         <h1 className="text-3xl xl:text-4xl font-bold">
-          {hero.title}
+          {hero.metaTitle}
         </h1>
         <p className="text-gray-400 mt-3">
-          {hero.subtitle}
+          {hero.description}
         </p>
       </div>
     </section>
   );
 }
+
+
+

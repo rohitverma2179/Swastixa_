@@ -150,6 +150,7 @@ const Hero = () => {
           <video
             ref={videoRef}
             src="https://swastixa.b-cdn.net/home%20page%20hero%20video%2004.mp4"
+            // src="https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/PARAMPARA.mp4"
             // src={heroVideo}
             autoPlay
             muted

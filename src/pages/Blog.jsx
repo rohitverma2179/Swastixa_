@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import BlogGrid from "../components/blog/BlogGrid";
 // import BlogHeader from "../components/blog/BlogHeader";
-import { blogs } from "../data/blogsData";
+import { blogs } from "../data/blogs";
 import InnerPageHeader from "../components/common/innerPageHeader";
 
 export default function BlogPage() {
