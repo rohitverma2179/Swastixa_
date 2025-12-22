@@ -484,7 +484,7 @@ import Particles from "./Particles";
 gsap.registerPlugin(ScrollTrigger);
 
 const ForthSection = () => {
-  const videoData = ["https://swastixa.b-cdn.net/videoddd/work-2%20(2).mp4", "https://swastixa.b-cdn.net/videoddd/work-2%20(3).mp4", "https://swastixa.b-cdn.net/videoddd/work-2%20(4).mp4", "https://swastixa.b-cdn.net/videoddd/work-2%20(1).mp4"];
+  const videoData = ["https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20HOME/Main%20-%20Work%20-%20mp4/work-2%20(1).mp4", "https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20HOME/Main%20-%20Work%20-%20mp4/work-2%20(2).mp4", "https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20HOME/Main%20-%20Work%20-%20mp4/work-2%20(3).mp4", "https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20HOME/Main%20-%20Work%20-%20mp4/work-2%20(4).mp4"];
 
   useEffect(() => {
     if (window.innerWidth <= 426) return;

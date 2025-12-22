@@ -8,14 +8,10 @@ export const blogs = [
       subtitle:
         "Learn how Indian SMEs can build a complete 360° digital marketing strategy on a limited budget. Practical steps, tools, and proven tactics inside.",
       image:
-        "https://swastixa.b-cdn.net/BLOG%20-%20-%20Digital%20Marketing.png",
+        "https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20BLOG/BLOG%20-%20-%20Digital%20Marketing.png",
     },
 
     content: [
-      {
-        type: "heading",
-        text: "Introduction"
-      },
       {
         type: "heading",
         text: "Introduction"
@@ -200,7 +196,7 @@ export const blogs = [
       description:
         "Complete step-by-step guide for traditional businesses to transition from offline to online. Practical digital transformation strategies for Indian SMEs.",
       image:
-        "https://swastixa.b-cdn.net/BLOG%20-%20-%20Digital%20Marketing.png",
+        "https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20BLOG/BLOG%20-%20-%20%20Digital%20Transformation.png",
     },
 
     content: [
@@ -578,7 +574,7 @@ export const blogs = [
     hero: {
       title: "Social Media Management for Local Businesses",
       subtitle: "Effective strategies to manage social media for local growth.",
-      image: "https://swastixa.b-cdn.net/BLOG%20-%20-%20%20%20Social%20Media%20Management.png",
+      image: "https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20BLOG/BLOG%20-%20-%20%20%20Social%20Media%20Management.png",
     },
     content: [{ type: "paragraph", text: "Content coming soon..." }]
   },
@@ -588,7 +584,7 @@ export const blogs = [
     hero: {
       title: "On-Page SEO Basics for Business Owners",
       subtitle: "Essential on-page SEO techniques every business owner should know.",
-      image: "https://swastixa.b-cdn.net/BLOG%20-%20-%20%20%20On-Page%20SEO.png",
+      image: "https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20BLOG/BLOG%20-%20-%20%20%20On-Page%20SEO.png",
     },
     content: [{ type: "paragraph", text: "Content coming soon..." }]
   },
@@ -598,7 +594,7 @@ export const blogs = [
     hero: {
       title: "High-Converting Website Design for Service Businesses",
       subtitle: "Design principles that turn visitors into customers.",
-      image: "https://swastixa.b-cdn.net/BLOG%20-%20-%20%20High-Converting.png",
+      image: "https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20BLOG/BLOG%20-%20-%20%20High-Converting.png",
     },
     content: [{ type: "paragraph", text: "Content coming soon..." }]
   },
@@ -608,7 +604,7 @@ export const blogs = [
     hero: {
       title: "SEO vs SCO: What Your Business Needs in 2025",
       subtitle: "Understanding the difference and choosing the right strategy.",
-      image: "https://swastixa.b-cdn.net/BLOG%20-%20-%20%20SEO%20vs%20SCO.png",
+      image: "https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20BLOG/BLOG%20-%20-%20%20SEO%20vs%20SCO.png",
     },
     content: [{ type: "paragraph", text: "Content coming soon..." }]
   },
@@ -618,7 +614,7 @@ export const blogs = [
     hero: {
       title: "Google Ads vs Meta Ads: Which Platform Wins?",
       subtitle: "Comparing the two giants to find the best fit for your business.",
-      image: "https://swastixa.b-cdn.net/BLOG%20-%20-%20%20Google%20Ads%20vs%20Meta%202.png",
+      image: "https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20BLOG/BLOG%20-%20-%20%20Google%20Ads%20vs%20Meta%202.png",
     },
     content: [{ type: "paragraph", text: "Content coming soon..." }]
   },
@@ -628,7 +624,7 @@ export const blogs = [
     hero: {
       title: "Local SEO Guide for Service Providers Blueprint",
       subtitle: "A complete blueprint for dominating local search results.",
-      image: "https://swastixa.b-cdn.net/BLOG%20-%20-%20%20%20Local%20SEO%20Guide%20.jpeg",
+      image: "https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20BLOG/BLOG%20-%20-%20%20%20Local%20SEO%20Guide%20.jpeg",
     },
     content: [{ type: "paragraph", text: "Content coming soon..." }]
   },
@@ -638,7 +634,7 @@ export const blogs = [
     hero: {
       title: "Explainer Videos vs Reels vs Carousels",
       subtitle: "Which content format works best for engagement?",
-      image: "https://swastixa.b-cdn.net/BLOG%20-%20-%20%20Explainer%20Videos.png",
+      image: "https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20BLOG/BLOG%20-%20-%20%20Explainer%20Videos.png",
     },
     content: [{ type: "paragraph", text: "Content coming soon..." }]
   },
@@ -648,7 +644,7 @@ export const blogs = [
     hero: {
       title: "Data-Driven Marketing for Small Brands",
       subtitle: "Leveraging data to make smarter marketing decisions.",
-      image: "https://swastixa.b-cdn.net/BLOG%20-%20-%20%20Data-Driven%20Marketing.png",
+      image: "https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20BLOG/BLOG%20-%20-%20%20Data-Driven%20Marketing.png",
     },
     content: [{ type: "paragraph", text: "Content coming soon..." }]
   },
@@ -658,7 +654,7 @@ export const blogs = [
     hero: {
       title: "7 Paid Ads Mistakes Businesses Make Frequently",
       subtitle: "Avoid these common pitfalls to maximize your ROI.",
-      image: "https://swastixa.b-cdn.net/BLOG%20-%20-%20%207%20Paid%20Ads%20Mistakes.png",
+      image: "https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20BLOG/BLOG%20-%20-%20%207%20Paid%20Ads%20Mistakes.png",
     },
     content: [{ type: "paragraph", text: "Content coming soon..." }]
   },
@@ -668,7 +664,7 @@ export const blogs = [
     hero: {
       title: "10 Website Design Mistakes Killing Your Leads",
       subtitle: "Identify and fix design errors that are hurting your conversions.",
-      image: "https://swastixa.b-cdn.net/BLOG%20-%20-%20%2010%20Website%20Design.png",
+      image: "https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20BLOG/BLOG%20-%20-%20%2010%20Website%20Design.png",
     },
     content: [{ type: "paragraph", text: "Content coming soon..." }]
   },
@@ -678,7 +674,7 @@ export const blogs = [
     hero: {
       title: "Content Calendar: Plan 30 Days of Posts in 2 Hours",
       subtitle: "Efficiency hacks for planning your social media content.",
-      image: "https://swastixa.b-cdn.net/BLOG%20-%20-%20%20Content%20Calendar.png",
+      image: "https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20BLOG/BLOG%20-%20-%20%20Content%20Calendar.png",
     },
     content: [{ type: "paragraph", text: "Content coming soon..." }]
   },
@@ -688,7 +684,7 @@ export const blogs = [
     hero: {
       title: "Retargeting Ads Guide: Convert Lost Visitors",
       subtitle: "Bring back lost traffic and turn them into customers.",
-      image: "https://swastixa.b-cdn.net/BLOG%20-%20-%20%20%20Retargeting%20Ads.png",
+      image: "https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20BLOG/BLOG%20-%20-%20%20%20Retargeting%20Ads.png",
     },
     content: [{ type: "paragraph", text: "Content coming soon..." }]
   },
@@ -698,7 +694,7 @@ export const blogs = [
     hero: {
       title: "In-House Content Production for Social Media",
       subtitle: "Building a sustainable in-house content engine.",
-      image: "https://swastixa.b-cdn.net/BLOG%20-%20-%20%20In-House.png",
+      image: "https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20BLOG/BLOG%20-%20-%20%20In-House.png",
     },
     content: [{ type: "paragraph", text: "Content coming soon..." }]
   },
@@ -708,7 +704,7 @@ export const blogs = [
     hero: {
       title: "How Graphic Design Builds Trust & Conversions",
       subtitle: " The impact of professional design on brand credibility.",
-      image: "https://swastixa.b-cdn.net/BLOG%20-%20-%20%20How%20Graphic%20Design.png",
+      image: "https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20BLOG/BLOG%20-%20-%20%20How%20Graphic%20Design.png",
     },
     content: [{ type: "paragraph", text: "Content coming soon..." }]
   },
@@ -718,7 +714,7 @@ export const blogs = [
     hero: {
       title: "Build Your Brand Using Instagram & Facebook Reels",
       subtitle: "Mastering short-form video for brand awareness.",
-      image: "https://swastixa.b-cdn.net/BLOG%20-%20-%20%20Build%20Your%20Brand.png",
+      image: "https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20BLOG/BLOG%20-%20-%20%20Build%20Your%20Brand.png",
     },
     content: [{ type: "paragraph", text: "Content coming soon..." }]
   },
@@ -728,7 +724,7 @@ export const blogs = [
     hero: {
       title: "Choose the Right Digital Marketing Partner",
       subtitle: "What to look for when hiring an agency.",
-      image: "https://swastixa.b-cdn.net/BLOG%20-%20-%20%20Choose%20the%20Right.png",
+      image: "https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20BLOG/BLOG%20-%20-%20%20Choose%20the%20Right.png",
     },
     content: [{ type: "paragraph", text: "Content coming soon..." }]
   },
@@ -738,7 +734,7 @@ export const blogs = [
     hero: {
       title: "Full-Stack Digital Marketing Approach Strategy",
       subtitle: "Comprehensive marketing strategies for holistic growth.",
-      image: "https://swastixa.b-cdn.net/BLOG%20-%20-%20%20%20Full-Stack%20Digital.jpg",
+      image: "https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20BLOG/BLOG%20-%20-%20%20%20Full-Stack%20Digital.jpg",
     },
     content: [{ type: "paragraph", text: "Content coming soon..." }]
   },
@@ -748,7 +744,7 @@ export const blogs = [
     hero: {
       title: "Swastixa's Client Success Blueprint",
       subtitle: "Our proven process for driving client growth.",
-      image: "https://swastixa.b-cdn.net/BLOG%20-%20-%20%20Swastixa's%20Client.png",
+      image: "https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20BLOG/BLOG%20-%20-%20%20Swastixa's%20Client.png",
     },
     content: [{ type: "paragraph", text: "Content coming soon..." }]
   }

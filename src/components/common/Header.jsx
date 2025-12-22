@@ -89,7 +89,7 @@ export default function Navbar() {
         onClick={() => setIsOpen(false)}
         className="flex items-center h-10 space-x-2"
       >
-        <img src="https://swastixa.b-cdn.net/swastixa.png" alt="Logo" className="w-55 h-20 object-contain" />
+        <img src="https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/swastixa/swastixa.png" alt="Logo" className="w-55 h-20 object-contain" />
       </Link>
 
 

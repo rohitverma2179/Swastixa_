@@ -41,7 +41,7 @@ DIGITAL AGENCY FOR SEO & ANALYTICS | ROOTED IN CULTURE */}
         <div className="flex justify-center items-center">
           <video
             // src={featcher_video}
-            src="https://swastixa.b-cdn.net/Hero-2nd-video.mp4"
+            src="https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20HOME/Hero-2nd-video.mp4"
             // alt="Digital Experience"
             className="w-[100%] max-w-md object-contain"
             autoPlay

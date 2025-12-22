@@ -5,10 +5,14 @@ import { Oval } from 'react-loader-spinner';
 // =============================
 // CARD DATA FOR BOTH VIEW
 // =============================
+
+
+
+
 const videoCards = [
   {
     id: 1,
-    src: "https://swastixa.b-cdn.net/WORK-Page-5V%20(1).mp4",
+    src: "https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20WORK/Top-5-video--animation/WORK-Page-5V%20(1).mp4",
     mobileBg: "bg-[#2f2d2d]",
     className: `
       absolute 
@@ -23,7 +27,7 @@ const videoCards = [
   },
   {
     id: 2,
-    src: "https://swastixa.b-cdn.net/WORK-Page-5V%20(2).mp4",
+    src: "https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20WORK/Top-5-video--animation/WORK-Page-5V%20(2).mp4",
     mobileBg: "bg-[#ededed]",
     className: `
       absolute 
@@ -38,7 +42,7 @@ const videoCards = [
   },
   {
     id: 3,
-    src: "https://swastixa.b-cdn.net/WORK-Page-5V%20(3).mp4",
+    src: "https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20WORK/Top-5-video--animation/WORK-Page-5V%20(3).mp4",
     mobileBg: "bg-[#bdb9b9]",
     className: `
       relative
@@ -52,7 +56,7 @@ const videoCards = [
   },
   {
     id: 4,
-    src: "https://swastixa.b-cdn.net/WORK-Page-5V%20(4).mp4",
+    src: "https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20WORK/Top-5-video--animation/WORK-Page-5V%20(4).mp4",
     mobileBg: "bg-[#d9d9d9]",
     className: `
       absolute
@@ -68,7 +72,7 @@ const videoCards = [
   },
   {
     id: 5,
-    src: "https://swastixa.b-cdn.net/WORK-Page-5V%20(5).mp4",
+    src: "https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20WORK/Top-5-video--animation/WORK-Page-5V%20(5).mp4",
     mobileBg: "bg-[#625f5f]",
     className: ` 
       absolute

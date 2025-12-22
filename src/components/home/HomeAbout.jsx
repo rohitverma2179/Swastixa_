@@ -655,11 +655,13 @@ const HomeAbout = () => {
   };
 
   const imagesList = [
-    "https://swastixa.b-cdn.net/About-page--IMG-4/Swastixa%20Website%204design-01.jpg ",
-    "https://swastixa.b-cdn.net/About-page--IMG-4/Swastixa%20Website%204design-02.jpg",
-    "https://swastixa.b-cdn.net/About-page--IMG-4/Swastixa%20Website%204design-03.jpg",
-    "https://swastixa.b-cdn.net/About-page--IMG-4/Swastixa%20Website%204design-04.jpg",
+    "https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20HOME/MAIN%20-%20ABOUT%20-%20img/Swastixa%20Website%204design-01.jpg",
+    "https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20HOME/MAIN%20-%20ABOUT%20-%20img/Swastixa%20Website%204design-02.jpg",
+    "https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20HOME/MAIN%20-%20ABOUT%20-%20img/Swastixa%20Website%204design-03.jpg",
+    "https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20HOME/MAIN%20-%20ABOUT%20-%20img/Swastixa%20Website%204design-04.jpg",
   ];
+
+
 
   return (
     <section
