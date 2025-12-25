@@ -36,7 +36,11 @@ import ContentRenderer from "./ContentRenderer";
 export default function BlogContent({ content }) {
   return (
 <<<<<<< HEAD
+<<<<<<< HEAD
     <div className="max-h-[90vh] overflow-y-auto pr-4 custom-scroll">
+=======
+    <div className=" pr-4 custom-scroll">
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
 =======
     <div className=" pr-4 custom-scroll">
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165

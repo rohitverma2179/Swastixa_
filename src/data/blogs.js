@@ -1,5 +1,9 @@
 export const blogs = [
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
 =======
 
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
@@ -7,6 +11,7 @@ export const blogs = [
     id: 1,
     slug: "digital-marketing-strategy-smes-budget",
     hero: {
+<<<<<<< HEAD
 <<<<<<< HEAD
       cardTitle: "Digital Marketing Strategy for SMEs Growth | Swastixa Digital.",
       title: "How Indian SMEs Can Build a 360° Digital Marketing Strategy With Limited Budget",
@@ -35,6 +40,8 @@ export const blogs = [
         text:
           "What you need is a 360° digital marketing strategy — a complete, connected approach that covers all the right channels without wasting money on tactics that don't work for your business type."
 =======
+=======
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
       metaTitle: "Digital Marketing Strategy for SMEs | Swastixa Digital",
       description:
         "Learn how Indian SMEs can build a complete 360° digital marketing strategy on a limited budget. Practical steps, tools, and proven tactics inside.",
@@ -55,14 +62,21 @@ export const blogs = [
       {
         type: "paragraph",
         text: "In this guide, we'll walk you through a practical, step-by-step roadmap to build your digital marketing strategy from scratch. Whether you're a local service provider, a B2B supplier, or a retail business, these steps will help you get real results without burning through your budget."
+<<<<<<< HEAD
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
+=======
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
       },
 
       {
         type: "paragraph",
 <<<<<<< HEAD
+<<<<<<< HEAD
         text:
           "In this guide, we'll walk you through a practical, step-by-step roadmap to build your digital marketing strategy from scratch. Whether you're a local service provider, a B2B supplier, or a retail business, these steps will help you get real results without burning through your budget."
+=======
+        text: "Shape"
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
 =======
         text: "Shape"
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
@@ -74,9 +88,12 @@ export const blogs = [
       },
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         type: "heading",
         text: "Introduction"
 =======
+=======
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
         type: "paragraph",
         text: "Most small businesses jump into digital marketing without a plan. They try a bit of social media, maybe run a few ads, and hope something sticks. The result? Inconsistent posting, scattered efforts, and little to show for the money spent."
       },
@@ -87,11 +104,15 @@ export const blogs = [
       {
         type: "paragraph",
         text: "If your brand isn't showing up at every stage of that journey, you're losing customers to competitors who are. The good news? You don't need to be everywhere at once. You just need to be smart about where you show up and how you connect those dots."
+<<<<<<< HEAD
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
+=======
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
       },
 
       {
         type: "paragraph",
+<<<<<<< HEAD
 <<<<<<< HEAD
         text:
           "Most small businesses jump into digital marketing without a plan. They try a bit of social media, maybe run a few ads, and hope something sticks. The result? Inconsistent posting, scattered efforts, and little to show for the money spent"
@@ -164,6 +185,8 @@ export const blogs = [
         type: "paragraph",
         text: "Digital marketing helps businesses grow online using {{link:SEO|digital-transformation-roadmap-traditional-businesses}} and {{link:social  media|high-converting-website-design-service-businesses}} strategies."
 =======
+=======
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
         text: "Shape"
       },
 
@@ -174,14 +197,20 @@ export const blogs = [
       {
         type: "paragraph",
         text: "A 360° strategy means your business is visible and consistent across all the digital channels that matter to your customers. It's not about doing everything — it's about doing the right things in a way that supports each other."
+<<<<<<< HEAD
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
+=======
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
       },
 
       {
         type: "subHeading",
 <<<<<<< HEAD
+<<<<<<< HEAD
         text: "Why Digital Marketing is Important"
 =======
+=======
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
         text: "The 5 Core Pillars Every SME Needs"
       },
       {
@@ -197,11 +226,15 @@ export const blogs = [
       {
         type: "paragraph",
         text: "When these five pillars work together, every rupee you spend on marketing delivers better results. Your ads drive traffic to an optimized website. Your SEO brings organic leads. Your social media builds trust that closes deals."
+<<<<<<< HEAD
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
+=======
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
       },
 
       {
         type: "paragraph",
+<<<<<<< HEAD
 <<<<<<< HEAD
         text: "In today’s world, customers search online before buying. {{link:Online presence|/blog/online-presence}} is the key to trust and visibility."
       },
@@ -222,6 +255,8 @@ export const blogs = [
         type: "subSubHeading",
         text: "Main Types of Digital Marketing"
 =======
+=======
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
         text: "Shape"
       },
 
@@ -354,11 +389,15 @@ export const blogs = [
       {
         type: "paragraph",
         text: "Take 10 minutes and write down:"
+<<<<<<< HEAD
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
+=======
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
       },
 
       {
         type: "list",
+<<<<<<< HEAD
 <<<<<<< HEAD
         variant: "unordered",
         items: [
@@ -367,6 +406,8 @@ export const blogs = [
           "Email Marketing",
           "Content Marketing"
 =======
+=======
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
         items: [
           { text: "Age range and location of your ideal customer" },
           { text: "Main problem they're trying to solve" },
@@ -647,12 +688,16 @@ export const blogs = [
           { text: "Scale ads to ₹18,000/month as cost-per-lead improves." },
           { text: "Launch a referral program promoted on social media." },
           { text: "Track results: 40+ leads/month, ₹450 cost per lead, 25% conversion rate." }
+<<<<<<< HEAD
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
+=======
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
         ]
       },
 
       {
         type: "paragraph",
+<<<<<<< HEAD
 <<<<<<< HEAD
         text: "Among all strategies, {{link:SEO marketing|/services/seo}} provides long-term results and sustainable growth."
       },
@@ -673,6 +718,8 @@ export const blogs = [
             text: " Builds long-term relationships."
           }
 =======
+=======
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
         text: "This isn't theory. Swastixa Digital has helped dozens of service businesses follow this exact roadmap and achieve measurable growth. See how we've done this for clients like yours here. [Add link of XYZ type work – Digital Strategy service page]"
       },
 
@@ -697,17 +744,23 @@ export const blogs = [
           { text: "Create a simple, repeatable content plan." },
           { text: "Drive traffic through local SEO and smart, small-budget ads." },
           { text: "Measure weekly and optimize what works." }
+<<<<<<< HEAD
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
+=======
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
         ]
       },
 
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         type: " ",
         text: "If you want expert help, explore our {{link:digital marketing services|/services}} for better business growth."
       }
     ]
 =======
+=======
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
         type: "paragraph",
         text: "If you follow this roadmap for 90 days, you'll see real results — more visibility, more leads, and a marketing system that works for your business, not against it."
       },
@@ -790,6 +843,9 @@ export const blogs = [
     ]
 
 
+<<<<<<< HEAD
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
+=======
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
   },
 
@@ -802,16 +858,22 @@ export const blogs = [
     hero: {
       metaTitle: "Digital Transformation Roadmap for Traditional Businesses",
 <<<<<<< HEAD
+<<<<<<< HEAD
       // title: "Digital Transformation Roadmap for Traditional Businesses",
       description:
         "Complete step-by-step guide for traditional businesses to transition from offline to online. Practical digital transformation strategies for Indian SMEs.",
       image:
         "https://swastixa.b-cdn.net/BLOG%20-%20-%20Digital%20Marketing.png",
 =======
+=======
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
       description:
         "Complete step-by-step guide for traditional businesses to transition from offline to online. Practical digital transformation strategies for Indian SMEs.",
       image:
         "https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20BLOG/BLOG%20-%20-%20%20Digital%20Transformation.png",
+<<<<<<< HEAD
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
+=======
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
     },
 
@@ -825,7 +887,10 @@ export const blogs = [
         text: "Introduction"
       },
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
 =======
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
       {
@@ -1045,6 +1110,7 @@ export const blogs = [
         text: "This takes 2–3 hours to set up and can start bringing leads within days. For more on local visibility, check out our complete {{link:Local SEO guide for service providers|local-seo-service-providers-guide }}."
       },
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
@@ -1063,6 +1129,8 @@ export const blogs = [
 
 
 =======
+=======
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
       {
         type: "heading",
         text: "Choose Your Primary Social Media Platform (Start With One)"
@@ -1110,6 +1178,9 @@ export const blogs = [
         type: "paragraph",
         text: "For a complete playbook on managing social media without a full-time team, read our {{link:Social Media Management Playbook for Local Businesses.|social-media-management-playbook-local-businesses}}"
       },
+<<<<<<< HEAD
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
+=======
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
 
 
@@ -1119,6 +1190,7 @@ export const blogs = [
 
 
       {
+<<<<<<< HEAD
 <<<<<<< HEAD
         type: "paragraph",
         text:
@@ -1133,6 +1205,8 @@ export const blogs = [
         text:
           "A 360° strategy means your business is visible and consistent across all the digital channels that matter to your customers. It's not about doing everything — it's about doing the right things in a way that supports each other."
 =======
+=======
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
         type: "heading",
         text: "Create Simple, Helpful Content That Builds Trust"
       },
@@ -1302,6 +1376,9 @@ export const blogs = [
       {
         type: "paragraph",
         text: "If you're unsure whether to focus on Google or Meta ads first, check out our comparison guide on {{link:Google Ads vs Meta Ads.|google-ads-vs-meta-ads-comparison}}. "
+<<<<<<< HEAD
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
+=======
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
       },
 
@@ -1311,7 +1388,10 @@ export const blogs = [
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
       {
         type: "heading",
         text: "Step 7 – Stay Connected With Email and Retargeting"
@@ -1465,12 +1545,16 @@ export const blogs = [
       },
 
 
+<<<<<<< HEAD
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
+=======
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
 
       {
         type: "list",
         variant: "unordered",
         items: [
+<<<<<<< HEAD
 <<<<<<< HEAD
           "No clear strategy",
           "Inconsistent posting",
@@ -1483,6 +1567,8 @@ export const blogs = [
         type: "subHeading",
         text: 'What Does a "360° Digital Marketing Strategy" Actually Mean?'
 =======
+=======
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
           " Started collecting email addresses from walk-in customers",
 
           'Launched small Google Ads campaign (₹12,000/month) targeting "electrical supplies Ahmedabad"',
@@ -1580,6 +1666,9 @@ export const blogs = [
       {
         type: "paragraph",
         text: "Follow this 8-step roadmap: "
+<<<<<<< HEAD
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
+=======
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
       },
 
@@ -1588,12 +1677,15 @@ export const blogs = [
         variant: "ordered",
         items: [
 <<<<<<< HEAD
+<<<<<<< HEAD
           "High-converting website",
           "Search engine visibility (SEO)",
           "Social media presence",
           "Paid advertising",
           "Content & messaging"
 =======
+=======
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
 
           "Audit your current digital presence",
           "Build your digital foundation (website + Google Business Profile)",
@@ -1603,12 +1695,16 @@ export const blogs = [
           "Drive traffic with local SEO and small paid ad tests",
           "Stay connected through email and retargeting",
           "Track results and adjust based on what works"
+<<<<<<< HEAD
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
+=======
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
         ]
       },
 
       {
         type: "paragraph",
+<<<<<<< HEAD
 <<<<<<< HEAD
         text:
           "When these pillars work together, every rupee you spend works harder."
@@ -1622,13 +1718,19 @@ export const blogs = [
 =======
         text: "Start with steps 1–3 this month. By month three, you'll have a functional digital presence that's generating leads. By month six, digital will be a reliable revenue channel alongside your traditional methods.  "
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
+=======
+        text: "Start with steps 1–3 this month. By month three, you'll have a functional digital presence that's generating leads. By month six, digital will be a reliable revenue channel alongside your traditional methods.  "
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
       },
 
       {
         type: "paragraph",
 <<<<<<< HEAD
+<<<<<<< HEAD
         text: "Digital marketing helps businesses grow online using {{link:SEO|digital-transformation-roadmap-traditional-businesses}} and {{link:social  media|high-converting-website-design-service-businesses}} strategies."
 =======
+=======
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
         text: "When you're ready to invest in digital marketing, knowing {{link:how to choose the right digital marketing partner|choose-right-digital-marketing-partner}} can save you time and money."
       },
 
@@ -1777,14 +1879,20 @@ export const blogs = [
       {
         type: "paragraphbold",
         text: " Instead, pick \n **one primary platform ** where your customers actually spend time, and \n **secondary platform  ** for backup."
+<<<<<<< HEAD
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
+=======
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
       },
 
       {
         type: "subHeading",
 <<<<<<< HEAD
+<<<<<<< HEAD
         text: "Why Digital Marketing is Important"
 =======
+=======
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
         text:
           "Platform Selection Guide for Local Businesses"
       },
@@ -1877,11 +1985,15 @@ export const blogs = [
       {
         type: "paragraphbold",
         text: " \n **What to post :**Educational tutorials, product demos, customer success stories, Q&A videos"
+<<<<<<< HEAD
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
+=======
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
       },
 
       {
         type: "paragraph",
+<<<<<<< HEAD
 <<<<<<< HEAD
         text: "In today’s world, customers search online before buying. {{link:Online presence|/blog/online-presence}} is the key to trust and visibility."
       },
@@ -1891,6 +2003,8 @@ export const blogs = [
         image: "https://images.unsplash.com/photo-1557838923-2985c318be48",
         text: "Digital marketing allows brands to reach a wider audience through {{link:paid ads|/services/ads}} and organic methods."
 =======
+=======
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
         text: "Start with one platform. Post consistently for 90 days. Once you have a rhythm, expand to a second platform. For more on choosing content formats across platforms, read our guide on  {{link: which format works best for your brand story.| video-reels-carousels-best-format-brand}}."
       },
 
@@ -2443,6 +2557,9 @@ export const blogs = [
       {
         type: "paragraphbold",
         text: "The businesses that grow fastest on social media aren't the ones that post the most — they're the ones that  \n **engage the most**"
+<<<<<<< HEAD
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
+=======
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
       },
 
@@ -2454,9 +2571,12 @@ export const blogs = [
 
       {
 <<<<<<< HEAD
+<<<<<<< HEAD
         type: "subSubHeading",
         text: "Main Types of Digital Marketing"
 =======
+=======
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
         type: "heading",
         text: "Step 8 – Turn Followers Into Customers (The Money Step)"
       },
@@ -2474,6 +2594,9 @@ export const blogs = [
       {
         type: "paragraphbold",
         text: "  \n **1. Use Stories for Direct Response: **Instagram and Facebook Stories have built-in interactive features:"
+<<<<<<< HEAD
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
+=======
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
       },
 
@@ -2482,11 +2605,14 @@ export const blogs = [
         variant: "unordered",
         items: [
 <<<<<<< HEAD
+<<<<<<< HEAD
           "Search Engine Optimization (SEO)",
           "Social Media Marketing",
           "Email Marketing",
           "Content Marketing"
 =======
+=======
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
           'Poll stickers: "Which service are you most interested in? Vote now."',
           "Question stickers: What's your biggest [problem]? Reply here.",
           'Link stickers: Drive traffic directly to booking pages or contact forms',
@@ -2540,6 +2666,9 @@ export const blogs = [
           "'Tag 2 friends and follow us to win [prize]'",
           "Giveaways grow followers fast, but make sure the prize attracts your target customers (not random prize hunters)",
 
+<<<<<<< HEAD
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
+=======
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
         ]
       },
@@ -2547,7 +2676,11 @@ export const blogs = [
       {
         type: "paragraph",
 <<<<<<< HEAD
+<<<<<<< HEAD
         text: "Among all strategies, {{link:SEO marketing|/services/seo}} provides long-term results and sustainable growth."
+=======
+        text: "For more advanced lead generation tactics, explore our guide on  {{link:Online retargeting|retargeting-ads-guide-convert-visitors}} is the key to trust and visibility."
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
 =======
         text: "For more advanced lead generation tactics, explore our guide on  {{link:Online retargeting|retargeting-ads-guide-convert-visitors}} is the key to trust and visibility."
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
@@ -2556,7 +2689,10 @@ export const blogs = [
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
 
       {
         type: "heading",
@@ -4651,6 +4787,9 @@ export const blogs = [
         ]
       },
 
+<<<<<<< HEAD
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
+=======
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
     ]
   },
@@ -4659,6 +4798,7 @@ export const blogs = [
 
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   {
     id: 3,
@@ -4811,6 +4951,8 @@ export const blogs = [
     content: [{ type: "paragraph", text: "Content coming soon..." }]
   },
 =======
+=======
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
 
 
 
@@ -15092,11 +15234,15 @@ export const blogs = [
 
 
 
+<<<<<<< HEAD
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
+=======
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
   {
     id: 18,
     slug: "choose-right-digital-marketing-partner",
     hero: {
+<<<<<<< HEAD
 <<<<<<< HEAD
       title: "Choose the Right Digital Marketing Partner",
       subtitle: "What to look for when hiring an agency.",
@@ -15124,6 +15270,8 @@ export const blogs = [
     },
     content: [{ type: "paragraph", text: "Content coming soon..." }]
 =======
+=======
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
       metaTitle: "Choose the Right Digital Marketing Partner | Swastixa Digital",
       description: "Learn how to evaluate and choose the right digital marketing agency for your business. Complete checklist, red flags, and questions to ask before signing.",
       image: "https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/Swastixa%20-%20BLOG/BLOG%20-%20-%20%20Choose%20the%20Right.png",
@@ -16942,6 +17090,9 @@ export const blogs = [
 
 
     ]
+<<<<<<< HEAD
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
+=======
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
   }
 ];

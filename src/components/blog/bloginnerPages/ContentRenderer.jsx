@@ -1,9 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 // import { img } from "framer-motion/client";
 
 // export default function ContentRenderer({ block }) {
 
 =======
+=======
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
 // // import { img } from "framer-motion/client";
 
 // // export default function ContentRenderer({ block }) {
@@ -108,6 +111,9 @@
 // import { Link } from "react-router-dom";
 
 // export default function ContentRenderer({ block }) {
+<<<<<<< HEAD
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
+=======
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
 //   switch (block.type) {
 //     case "heading":
@@ -116,6 +122,7 @@
 //           {block.text}
 //         </h2>
 //       );
+<<<<<<< HEAD
 <<<<<<< HEAD
 //     case "subHeading":
 //       return (
@@ -133,15 +140,21 @@
 //       return (
 //         <h3 className="text-xl font-semibold mt-8 mb-4">
 =======
+=======
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
 
 //     case "subHeading":
 //       return (
 //         <h3 className="text-xl font-semibold mt-6 mb-3">
+<<<<<<< HEAD
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
+=======
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
 //           {block.text}
 //         </h3>
 //       );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 //     case "paragraph":
 //       return (
@@ -178,6 +191,8 @@
 //       );
 
 =======
+=======
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
 //     case "subSubHeading":
 //       return (
 //         <h4 className="text-lg font-semibold mt-5 mb-2">
@@ -224,6 +239,9 @@
 //       );
 
 
+<<<<<<< HEAD
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
+=======
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
 //     case "list":
 //       return block.variant === "ordered" ? (
@@ -240,6 +258,7 @@
 //         </ul>
 //       );
 <<<<<<< HEAD
+<<<<<<< HEAD
 //     case "boldList":
 //       return block.variant === "boldOrdered" ? (
 //         <ol className="list-decimal ml-6 text-gray-400 mb-6 space-y-2">
@@ -253,6 +272,8 @@
 //           <li key={i} className="font-bold"><span>{bolditem} </span>{item}  </li>
 //             // <li key={i}>{item}</li>
 =======
+=======
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
 
 //     case "boldList":
 //       return (
@@ -277,6 +298,9 @@
 //               </span>{" "}
 //               {item.text}
 //             </li>
+<<<<<<< HEAD
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
+=======
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
 //           ))}
 //         </ul>
@@ -290,7 +314,10 @@
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
 
 // // function renderTextWithLinks(text) {
 // //   const regex = /\{\{link:(.*?)\|(.*?)\}\}/g;
@@ -368,6 +395,9 @@
 
 
 
+<<<<<<< HEAD
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
+=======
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
 import { Link } from "react-router-dom";
 
@@ -401,7 +431,10 @@ export default function ContentRenderer({ block }) {
         </p>
       );
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
     case "paragraphbold": {
       const [heading, ...rest] = block.text.split("\n");
       const bodyText = rest.join("\n");
@@ -419,6 +452,9 @@ export default function ContentRenderer({ block }) {
     }
 
 
+<<<<<<< HEAD
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
+=======
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
 
     case "imageLeftText":
@@ -458,12 +494,18 @@ export default function ContentRenderer({ block }) {
         <ol className="list-decimal ml-6 text-gray-400 mb-6 space-y-2">
           {block.items.map((item, i) => (
 <<<<<<< HEAD
+<<<<<<< HEAD
             <li key={i}>{item}</li>
 =======
+=======
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
             // <li key={i}>{item}</li>
             // <li key={i}>{item}{item.text}</li>
             <li key={i}> {typeof item === "string" ? item : item.text}</li>
             
+<<<<<<< HEAD
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
+=======
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
           ))}
         </ol>
@@ -471,11 +513,14 @@ export default function ContentRenderer({ block }) {
         <ul className="list-disc ml-6 text-gray-400 mb-6 space-y-2">
           {block.items.map((item, i) => (
 <<<<<<< HEAD
+<<<<<<< HEAD
             <li key={i}>{item}</li>
           ))}
         </ul>
       );
 =======
+=======
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
             <li key={i}> {typeof item === "string" ? item : item.text}</li>
           ))}
         </ul>
@@ -508,6 +553,9 @@ export default function ContentRenderer({ block }) {
         </ul>
       );
       
+<<<<<<< HEAD
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
+=======
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
 
     case "boldList":
@@ -524,7 +572,10 @@ export default function ContentRenderer({ block }) {
         </ul>
       );
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
     case "boldListpara":
       return (
         <ul className="list-none list-inside   ml-0 text-gray-400 mb-6 ">
@@ -538,6 +589,9 @@ export default function ContentRenderer({ block }) {
           ))}
         </ul>
       );
+<<<<<<< HEAD
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
+=======
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
     case "unorderedBoldListdecimal":
       return (
@@ -595,6 +649,7 @@ export default function ContentRenderer({ block }) {
 
 function renderTextWithLinks(text) {
 <<<<<<< HEAD
+<<<<<<< HEAD
   const regex = /\{\{link:([^|]+)\|([^}]+)\}\}/g;
 
   return text.split(regex).map((part, index) => {
@@ -608,6 +663,8 @@ function renderTextWithLinks(text) {
     if (index % 3 === 2) {
       const label = text.split(regex)[index - 1];
 =======
+=======
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
   if (!text) return null;
 
   // Step 1: split by link pattern
@@ -636,6 +693,9 @@ function renderTextWithLinks(text) {
     // Slug → Link
     if (index % 3 === 2) {
       const label = parts[index - 1];
+<<<<<<< HEAD
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
+=======
 >>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
       const slug = part;
 
@@ -650,8 +710,15 @@ function renderTextWithLinks(text) {
       );
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
   });
 }
+=======
+
+    return null;
+  });
+}
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
 =======
 
     return null;
