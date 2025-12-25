@@ -26,7 +26,12 @@
 
 
 import BlogHero from "./BlogHero";
+<<<<<<< HEAD
 import BlogContent from "./BlogContent"; 
+=======
+import BlogContent from "./BlogContent";
+import FAQ from "../../faq/FAQ";
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
 
 export default function BlogLayout({ blog }) {
   return (
@@ -44,6 +49,13 @@ export default function BlogLayout({ blog }) {
           </div>
         </aside> */}
       </div>
+<<<<<<< HEAD
+=======
+      {/* FAQ Section (Auto Render if Exists) */}
+      {blog.faq && blog.faq.length > 0 && (
+        <FAQ faqs={blog.faq} />
+      )}
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
     </section>
   );
 }

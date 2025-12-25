@@ -31,7 +31,11 @@ export default function ContactSection() {
     <section id="contactSection"
       className="relative w-full min-h-screen py-20 flex items-center justify-center bg-cover bg-center bg-no-repeat"
       style={{
+<<<<<<< HEAD
         backgroundImage: `url(${"https://swastixa.b-cdn.net/Bg--Swastixa--contact.png "})`,
+=======
+        backgroundImage: `url(${"https://pub-9cfa6415ad044bcc8f009cfb63bc9ff9.r2.dev/swastixa/Bg--Swastixa--contact.png"})`,
+>>>>>>> 648cf52d930bbe32c24f72d4a94a085f88032165
       }}
     >
       {/* Black Overlay */}
